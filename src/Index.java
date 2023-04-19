@@ -7,86 +7,86 @@ public class Index {
     static int sr101 = 0, sr102 = 5, sr103 = 2, sr104 = 0, sr201 = 1, sr202 = 3, sr203 = 3, sr204 = 1, sr301 = 5, sr302 = 4, sr303 = 4, sr304 = 0, sr401 = 0, sr402 = 3, sr403 = 0, sr404 = 2, sr501 = 4, sr502 = 3, sr503 = 1, sr504 = 5, sr601 = 4, sr602 = 2, sr603 = 2, sr604 = 3, sr701 = 2, sr702 = 5, sr703 = 4, sr704 = 2, sr801 = 1, sr802 = 0, sr803 = 0, sr804 = 5;
 
     static String[][] i101 = {
-            {"1661", "William", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1772", "Jessica", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1013", "Craig", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1004", "Erin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1202", "Kevin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
+            {"1661", "William", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1772", "Jessica", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1013", "Craig", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1004", "Erin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1202", "Kevin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
     };
 
     static String[][] i102 = {
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
     static String[][] i103 = {
-            {"1286", "Kylee", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1145", "Danna", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1286", "Kylee", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1145", "Danna", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
     };
 
     static String[][] i104 = {
-            {"1049", "Walker", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1728", "Hana", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1661", "William", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1772", "Jessica", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1013", "Craig", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
+            {"1049", "Walker", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1728", "Hana", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1661", "William", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1772", "Jessica", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1013", "Craig", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
     };
 
     static String[][] i201 = {
-            {"1004", "Erin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1202", "Kevin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1286", "Kylee", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1439", "Vincent", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"1004", "Erin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1202", "Kevin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1286", "Kylee", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1439", "Vincent", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i202 = {
-            {"1145", "Danna", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1049", "Walker", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"1145", "Danna", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1049", "Walker", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i203 = {
-            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
     };
 
     static String[][] i204 = {
-            {"1772", "Jessica", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1013", "Craig", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1004", "Erin", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1202", "Kevin", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"1772", "Jessica", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1013", "Craig", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1004", "Erin", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1202", "Kevin", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
     static String[][] i301 = {
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i302 = {
-            {"1286", "Kylee", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"1286", "Kylee", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i303 = {
-            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
@@ -94,127 +94,127 @@ public class Index {
     };
 
     static String[][] i304 = {
-            {"1145", "Danna", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1049", "Walker", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1728", "Hana", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1661", "William", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1772", "Jessica", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
+            {"1145", "Danna", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1049", "Walker", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1728", "Hana", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1661", "William", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1772", "Jessica", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
     };
 
     static String[][] i401 = {
-            {"1013", "Craig", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1004", "Erin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1202", "Kevin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1286", "Kylee", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1439", "Vincent", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
+            {"1013", "Craig", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1004", "Erin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1202", "Kevin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1286", "Kylee", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1439", "Vincent", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
     };
 
     static String[][] i402 = {
-            {"1145", "Danna", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1049", "Walker", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"1145", "Danna", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1049", "Walker", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i403 = {
-            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
     };
 
     static String[][] i404 = {
-            {"1202", "Kevin", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1286", "Kylee", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1439", "Vincent", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"1202", "Kevin", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1286", "Kylee", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1439", "Vincent", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
     static String[][] i501 = {
-            {"1145", "Danna", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"1145", "Danna", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i502 = {
-            {"1049", "Walker", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1728", "Hana", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"1049", "Walker", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1728", "Hana", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i503 = {
-            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
     };
 
     static String[][] i504 = {
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
     static String[][] i601 = {
-            {"1202", "Kevin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"1202", "Kevin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i602 = {
-            {"1286", "Kylee", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1439", "Vincent", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1145", "Danna", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"1286", "Kylee", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1439", "Vincent", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1145", "Danna", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i603 = {
-            {"1049", "Walker", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1049", "Walker", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
     };
 
     static String[][] i604 = {
-            {"1772", "Jessica", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1013", "Craig", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"1772", "Jessica", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1013", "Craig", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
     static String[][] i701 = {
-            {"1004", "Erin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1202", "Kevin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1286", "Kylee", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"1004", "Erin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1202", "Kevin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1286", "Kylee", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i702 = {
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
-            {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
+            {"0", "None", "Bodysculpt", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
 
     static String[][] i703 = {
-            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1439", "Vincent", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
@@ -222,43 +222,43 @@ public class Index {
     };
 
     static String[][] i704 = {
-            {"1145", "Danna", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1049", "Walker", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"1728", "Hana", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"1145", "Danna", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1049", "Walker", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"1728", "Hana", "Yoga", "Sunday", "10:00AM", "Reserved", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
     static String[][] i801 = {
-            {"1661", "William", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1772", "Jessica", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1013", "Craig", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"1004", "Erin", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"0", "None", "Yoga", "Saturday", "7:00AM", "Available", "2","None","0"},
+            {"1661", "William", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1772", "Jessica", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1013", "Craig", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"1004", "Erin", "Spin", "Saturday", "7:00AM", "Reserved", "2","None","0"},
+            {"0", "None", "Spin", "Saturday", "7:00AM", "Available", "2","None","0"},
     };
 
     static String[][] i802 = {
-            {"1202", "Kevin", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1286", "Kylee", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1439", "Vincent", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1145", "Danna", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
-            {"1049", "Walker", "Box Fit", "Saturday", "10:00AM", "Booked", "3","None","0"},
+            {"1202", "Kevin", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1286", "Kylee", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1439", "Vincent", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1145", "Danna", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
+            {"1049", "Walker", "Bodysculpt", "Saturday", "10:00AM", "Reserved", "3","None","0"},
     };
 
     static String[][] i803 = {
-            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"1728", "Hana", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1661", "William", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1772", "Jessica", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1013", "Craig", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
+            {"1004", "Erin", "Zumba", "Sunday", "7:00AM", "Reserved", "4","None","0"},
     };
 
     static String[][] i804 = {
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
-            {"0", "None", "Aquacise", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
     };
 
 
@@ -267,67 +267,67 @@ public class Index {
         if (classCode == 101)
             return sr101;
         else if (classCode == 102)
-            return s12;
+            return sr102;
         else if (classCode == 103)
-            return s13;
+            return sr103;
         else if (classCode == 104)
-            return s14;
+            return sr104;
         else if (classCode == 201)
-            return s21;
+            return sr201;
         else if (classCode == 202)
-            return s22;
+            return sr202;
         else if (classCode == 203)
-            return s23;
+            return sr203;
         else if (classCode == 204)
-            return s24;
+            return sr204;
         else if (classCode == 301)
-            return s31;
+            return sr301;
         else if (classCode == 302)
-            return s32;
+            return sr302;
         else if (classCode == 303)
-            return s33;
+            return sr303;
         else if (classCode == 304)
-            return s34;
+            return sr304;
         else if (classCode == 401)
-            return s41;
+            return sr401;
         else if (classCode == 402)
-            return s42;
+            return sr402;
         else if (classCode == 403)
-            return s43;
+            return sr403;
         else if (classCode == 404)
-            return s44;
+            return sr404;
         else if (classCode == 501)
-            return s51;
+            return sr501;
         else if (classCode == 502)
-            return s52;
+            return sr502;
         else if (classCode == 503)
-            return s53;
+            return sr503;
         else if (classCode == 504)
-            return s54;
+            return sr504;
         else if (classCode == 601)
-            return s61;
+            return sr601;
         else if (classCode == 602)
-            return s62;
+            return sr602;
         else if (classCode == 603)
-            return s63;
+            return sr603;
         else if (classCode == 604)
-            return s64;
+            return sr604;
         else if (classCode == 701)
-            return s71;
+            return sr701;
         else if (classCode == 702)
-            return s72;
+            return sr702;
         else if (classCode == 703)
-            return s73;
+            return sr703;
         else if (classCode == 704)
-            return s74;
+            return sr704;
         else if (classCode == 801)
-            return s81;
+            return sr801;
         else if (classCode == 802)
-            return s82;
+            return sr802;
         else if (classCode == 803)
-            return s83;
+            return sr803;
         else if (classCode == 804)
-            return s84;
+            return sr804;
 
         return 0;
     }
@@ -417,7 +417,7 @@ public class Index {
 
                     db[i][0] = id;
                     db[i][1] = name;
-                    db[i][5] = "Booked";
+                    db[i][5] = "Reserved";
                     removeSeat(classCode);
 
                     //Print the table
@@ -443,67 +443,67 @@ public class Index {
         if(classCode==101)
             sr101--;
         else if(classCode==102)
-            s12--;
+            sr102--;
         else if(classCode==103)
-            s13--;
+            sr103--;
         else if(classCode==104)
-            s14--;
+            sr104--;
         else if(classCode==201)
-            s21--;
+            sr201--;
         else if(classCode==202)
-            s22--;
+            sr202--;
         else if(classCode==203)
-            s23--;
+            sr203--;
         else if(classCode==204)
-            s24--;
+            sr204--;
         else if(classCode==301)
-            s31--;
+            sr301--;
         else if(classCode==302)
-            s32--;
+            sr302--;
         else if(classCode==303)
-            s33--;
+            sr303--;
         else if(classCode==304)
-            s34--;
+            sr304--;
         else if(classCode==401)
-            s41--;
+            sr401--;
         else if(classCode==402)
-            s42--;
+            sr402--;
         else if(classCode==403)
-            s43--;
+            sr403--;
         else if(classCode==404)
-            s44--;
+            sr404--;
         else if(classCode==501)
-            s51--;
+            sr501--;
         else if(classCode==502)
-            s52--;
+            sr502--;
         else if(classCode==503)
-            s53--;
+            sr503--;
         else if(classCode==504)
-            s54--;
+            sr504--;
         else if(classCode==601)
-            s61--;
+            sr601--;
         else if(classCode==602)
-            s62--;
+            sr602--;
         else if(classCode==603)
-            s63--;
+            sr603--;
         else if(classCode==604)
-            s64--;
+            sr604--;
         else if(classCode==701)
-            s71--;
+            sr701--;
         else if(classCode==702)
-            s72--;
+            sr702--;
         else if(classCode==703)
-            s73--;
+            sr703--;
         else if(classCode==704)
-            s74--;
+            sr704--;
         else if(classCode==801)
-            s81--;
+            sr801--;
         else if(classCode==802)
-            s82--;
+            sr802--;
         else if(classCode==803)
-            s83--;
+            sr803--;
         else if(classCode==804)
-            s84--;
+            sr804--;
     }
 
 
@@ -516,7 +516,7 @@ public class Index {
 
         //i101
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i101[i][0])&&(!Objects.equals(i101[i][5], "Attended"))) {
+            if (Objects.equals(id, i101[i][0])&&(!Objects.equals(i101[i][5], "Appeared"))) {
                 idClassCode[found] = 101;
                 found++;
                 break;
@@ -524,7 +524,7 @@ public class Index {
         }
         //i102
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i102[i][0])&&(!Objects.equals(i102[i][5], "Attended"))) {
+            if (Objects.equals(id, i102[i][0])&&(!Objects.equals(i102[i][5], "Appeared"))) {
                 idClassCode[found] = 102;
                 found++;
                 break;
@@ -532,7 +532,7 @@ public class Index {
         }
         //i103
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i103[i][0])&&(!Objects.equals(i103[i][5], "Attended"))) {
+            if (Objects.equals(id, i103[i][0])&&(!Objects.equals(i103[i][5], "Appeared"))) {
                 idClassCode[found] = 103;
                 found++;
                 break;
@@ -540,7 +540,7 @@ public class Index {
         }
         //i104
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i104[i][0])&&(!Objects.equals(i104[i][5], "Attended"))) {
+            if (Objects.equals(id, i104[i][0])&&(!Objects.equals(i104[i][5], "Appeared"))) {
                 idClassCode[found] = 104;
                 found++;
                 break;
@@ -548,7 +548,7 @@ public class Index {
         }
         //i201
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i201[i][0])&&(!Objects.equals(i201[i][5], "Attended"))) {
+            if (Objects.equals(id, i201[i][0])&&(!Objects.equals(i201[i][5], "Appeared"))) {
                 idClassCode[found] = 201;
                 found++;
                 break;
@@ -556,7 +556,7 @@ public class Index {
         }
         //i202
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i202[i][0])&&(!Objects.equals(i202[i][5], "Attended"))) {
+            if (Objects.equals(id, i202[i][0])&&(!Objects.equals(i202[i][5], "Appeared"))) {
                 idClassCode[found] = 202;
                 found++;
                 break;
@@ -564,7 +564,7 @@ public class Index {
         }
         //i203
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i203[i][0])&&(!Objects.equals(i203[i][5], "Attended"))) {
+            if (Objects.equals(id, i203[i][0])&&(!Objects.equals(i203[i][5], "Appeared"))) {
                 idClassCode[found] = 203;
                 found++;
                 break;
@@ -572,7 +572,7 @@ public class Index {
         }
         //i204
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i204[i][0])&&(!Objects.equals(i204[i][5], "Attended"))) {
+            if (Objects.equals(id, i204[i][0])&&(!Objects.equals(i204[i][5], "Appeared"))) {
                 idClassCode[found] = 204;
                 found++;
                 break;
@@ -580,7 +580,7 @@ public class Index {
         }
         //i301
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i301[i][0])&&(!Objects.equals(i301[i][5], "Attended"))) {
+            if (Objects.equals(id, i301[i][0])&&(!Objects.equals(i301[i][5], "Appeared"))) {
                 idClassCode[found] = 301;
                 found++;
                 break;
@@ -588,7 +588,7 @@ public class Index {
         }
         //i302
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i302[i][0])&&(!Objects.equals(i302[i][5], "Attended"))) {
+            if (Objects.equals(id, i302[i][0])&&(!Objects.equals(i302[i][5], "Appeared"))) {
                 idClassCode[found] = 302;
                 found++;
                 break;
@@ -596,7 +596,7 @@ public class Index {
         }
         //i303
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i303[i][0])&&(!Objects.equals(i303[i][5], "Attended"))) {
+            if (Objects.equals(id, i303[i][0])&&(!Objects.equals(i303[i][5], "Appeared"))) {
                 idClassCode[found] = 303;
                 found++;
                 break;
@@ -604,7 +604,7 @@ public class Index {
         }
         //i304
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i304[i][0])&&(!Objects.equals(i304[i][5], "Attended"))) {
+            if (Objects.equals(id, i304[i][0])&&(!Objects.equals(i304[i][5], "Appeared"))) {
                 idClassCode[found] = 304;
                 found++;
                 break;
@@ -612,7 +612,7 @@ public class Index {
         }
         //i401
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i401[i][0])&&(!Objects.equals(i401[i][5], "Attended"))) {
+            if (Objects.equals(id, i401[i][0])&&(!Objects.equals(i401[i][5], "Appeared"))) {
                 idClassCode[found] = 401;
                 found++;
                 break;
@@ -620,7 +620,7 @@ public class Index {
         }
         //i402
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i402[i][0])&&(!Objects.equals(i402[i][5], "Attended"))) {
+            if (Objects.equals(id, i402[i][0])&&(!Objects.equals(i402[i][5], "Appeared"))) {
                 idClassCode[found] = 402;
                 found++;
                 break;
@@ -628,7 +628,7 @@ public class Index {
         }
         //i403
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i403[i][0])&&(!Objects.equals(i403[i][5], "Attended"))) {
+            if (Objects.equals(id, i403[i][0])&&(!Objects.equals(i403[i][5], "Appeared"))) {
                 idClassCode[found] = 403;
                 found++;
                 break;
@@ -636,7 +636,7 @@ public class Index {
         }
         //i404
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i404[i][0])&&(!Objects.equals(i404[i][5], "Attended"))) {
+            if (Objects.equals(id, i404[i][0])&&(!Objects.equals(i404[i][5], "Appeared"))) {
                 idClassCode[found] = 404;
                 found++;
                 break;
@@ -644,7 +644,7 @@ public class Index {
         }
         //i501
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i501[i][0])&&(!Objects.equals(i501[i][5], "Attended"))) {
+            if (Objects.equals(id, i501[i][0])&&(!Objects.equals(i501[i][5], "Appeared"))) {
                 idClassCode[found] = 501;
                 found++;
                 break;
@@ -652,7 +652,7 @@ public class Index {
         }
         //i502
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i502[i][0])&&(!Objects.equals(i502[i][5], "Attended"))) {
+            if (Objects.equals(id, i502[i][0])&&(!Objects.equals(i502[i][5], "Appeared"))) {
                 idClassCode[found] = 502;
                 found++;
                 break;
@@ -660,7 +660,7 @@ public class Index {
         }
         //i503
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i503[i][0])&&(!Objects.equals(i503[i][5], "Attended"))) {
+            if (Objects.equals(id, i503[i][0])&&(!Objects.equals(i503[i][5], "Appeared"))) {
                 idClassCode[found] = 503;
                 found++;
                 break;
@@ -668,7 +668,7 @@ public class Index {
         }
         //i504
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i504[i][0])&&(!Objects.equals(i504[i][5], "Attended"))) {
+            if (Objects.equals(id, i504[i][0])&&(!Objects.equals(i504[i][5], "Appeared"))) {
                 idClassCode[found] = 504;
                 found++;
                 break;
@@ -676,7 +676,7 @@ public class Index {
         }
         //i601
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i601[i][0])&&(!Objects.equals(i601[i][5], "Attended"))) {
+            if (Objects.equals(id, i601[i][0])&&(!Objects.equals(i601[i][5], "Appeared"))) {
                 idClassCode[found] = 601;
                 found++;
                 break;
@@ -684,7 +684,7 @@ public class Index {
         }
         //i602
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i602[i][0])&&(!Objects.equals(i602[i][5], "Attended"))) {
+            if (Objects.equals(id, i602[i][0])&&(!Objects.equals(i602[i][5], "Appeared"))) {
                 idClassCode[found] = 602;
                 found++;
                 break;
@@ -692,7 +692,7 @@ public class Index {
         }
         //i603
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i603[i][0])&&(!Objects.equals(i603[i][5], "Attended"))) {
+            if (Objects.equals(id, i603[i][0])&&(!Objects.equals(i603[i][5], "Appeared"))) {
                 idClassCode[found] = 603;
                 found++;
                 break;
@@ -700,7 +700,7 @@ public class Index {
         }
         //i604
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i604[i][0])&&(!Objects.equals(i604[i][5], "Attended"))) {
+            if (Objects.equals(id, i604[i][0])&&(!Objects.equals(i604[i][5], "Appeared"))) {
                 idClassCode[found] = 604;
                 found++;
                 break;
@@ -708,7 +708,7 @@ public class Index {
         }
         //i701
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i701[i][0])&&(!Objects.equals(i701[i][5], "Attended"))) {
+            if (Objects.equals(id, i701[i][0])&&(!Objects.equals(i701[i][5], "Appeared"))) {
                 idClassCode[found] = 701;
                 found++;
                 break;
@@ -716,7 +716,7 @@ public class Index {
         }
         //i702
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i702[i][0])&&(!Objects.equals(i702[i][5], "Attended"))) {
+            if (Objects.equals(id, i702[i][0])&&(!Objects.equals(i702[i][5], "Appeared"))) {
                 idClassCode[found] = 702;
                 found++;
                 break;
@@ -724,7 +724,7 @@ public class Index {
         }
         //i703
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i703[i][0])&&(!Objects.equals(i703[i][5], "Attended"))) {
+            if (Objects.equals(id, i703[i][0])&&(!Objects.equals(i703[i][5], "Appeared"))) {
                 idClassCode[found] = 703;
                 found++;
                 break;
@@ -732,7 +732,7 @@ public class Index {
         }
         //i704
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i704[i][0])&&(!Objects.equals(i704[i][5], "Attended"))) {
+            if (Objects.equals(id, i704[i][0])&&(!Objects.equals(i704[i][5], "Appeared"))) {
                 idClassCode[found] = 704;
                 found++;
                 break;
@@ -740,7 +740,7 @@ public class Index {
         }
         //i801
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i801[i][0])&&(!Objects.equals(i801[i][5], "Attended"))) {
+            if (Objects.equals(id, i801[i][0])&&(!Objects.equals(i801[i][5], "Appeared"))) {
                 idClassCode[found] = 801;
                 found++;
                 break;
@@ -748,7 +748,7 @@ public class Index {
         }
         //i802
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i802[i][0])&&(!Objects.equals(i802[i][5], "Attended"))) {
+            if (Objects.equals(id, i802[i][0])&&(!Objects.equals(i802[i][5], "Appeared"))) {
                 idClassCode[found] = 802;
                 found++;
                 break;
@@ -756,7 +756,7 @@ public class Index {
         }
         //i803
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i803[i][0])&&(!Objects.equals(i803[i][5], "Attended"))) {
+            if (Objects.equals(id, i803[i][0])&&(!Objects.equals(i803[i][5], "Appeared"))) {
                 idClassCode[found] = 803;
                 found++;
                 break;
@@ -764,7 +764,7 @@ public class Index {
         }
         //i804
         for (i = 0; i < 5; i++) {
-            if (Objects.equals(id, i804[i][0])&&(!Objects.equals(i804[i][5], "Attended"))) {
+            if (Objects.equals(id, i804[i][0])&&(!Objects.equals(i804[i][5], "Appeared"))) {
                 idClassCode[found] = 804;
                 found++;
                 break;
@@ -786,13 +786,13 @@ public class Index {
         while (idClassCode[i] != 0) {
             if (idClassCode[i] == 101) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 102) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -804,19 +804,19 @@ public class Index {
             }
             else if (idClassCode[i] == 104) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 201) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 202) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -828,19 +828,19 @@ public class Index {
             }
             else if (idClassCode[i] == 204) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 301) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 302) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -852,19 +852,19 @@ public class Index {
             }
             else if (idClassCode[i] == 304) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 401) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 402) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -876,19 +876,19 @@ public class Index {
             }
             else if (idClassCode[i] == 404) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 501) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 502) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -900,19 +900,19 @@ public class Index {
             }
             else if (idClassCode[i] == 504) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 601) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 602) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -924,19 +924,19 @@ public class Index {
             }
             else if (idClassCode[i] == 604) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 701) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 702) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -948,19 +948,19 @@ public class Index {
             }
             else if (idClassCode[i] == 704) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 801) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
+                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tSpin\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
             else if (idClassCode[i] == 802) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
+                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tBodysculpt\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
@@ -972,7 +972,7 @@ public class Index {
             }
             else if (idClassCode[i] == 804) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
+                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\tYoga\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
@@ -1081,67 +1081,67 @@ public class Index {
         if(classCode==101)
             sr101++;
         else if(classCode==102)
-            s12++;
+            sr102++;
         else if(classCode==103)
-            s13++;
+            sr103++;
         else if(classCode==104)
-            s14++;
+            sr104++;
         else if(classCode==201)
-            s21++;
+            sr201++;
         else if(classCode==202)
-            s22++;
+            sr202++;
         else if(classCode==203)
-            s23++;
+            sr203++;
         else if(classCode==204)
-            s24++;
+            sr204++;
         else if(classCode==301)
-            s31++;
+            sr301++;
         else if(classCode==302)
-            s32++;
+            sr302++;
         else if(classCode==303)
-            s33++;
+            sr303++;
         else if(classCode==304)
-            s34++;
+            sr304++;
         else if(classCode==401)
-            s41++;
+            sr401++;
         else if(classCode==402)
-            s42++;
+            sr402++;
         else if(classCode==403)
-            s43++;
+            sr403++;
         else if(classCode==404)
-            s44++;
+            sr404++;
         else if(classCode==501)
-            s51++;
+            sr501++;
         else if(classCode==502)
-            s52++;
+            sr502++;
         else if(classCode==503)
-            s53++;
+            sr503++;
         else if(classCode==504)
-            s54++;
+            sr504++;
         else if(classCode==601)
-            s61++;
+            sr601++;
         else if(classCode==602)
-            s62++;
+            sr602++;
         else if(classCode==603)
-            s63++;
+            sr603++;
         else if(classCode==604)
-            s64++;
+            sr604++;
         else if(classCode==701)
-            s71++;
+            sr701++;
         else if(classCode==702)
-            s72++;
+            sr702++;
         else if(classCode==703)
-            s73++;
+            sr703++;
         else if(classCode==704)
-            s74++;
+            sr704++;
         else if(classCode==801)
-            s81++;
+            sr801++;
         else if(classCode==802)
-            s82++;
+            sr802++;
         else if(classCode==803)
-            s83++;
+            sr803++;
         else if(classCode==804)
-            s84++;
+            sr804++;
     }
 
 
@@ -1220,7 +1220,7 @@ public class Index {
 
         for (int i=0;i<5;i++) {
             if (Objects.equals(db[i][0], id)) {
-                db[i][5] = "Attended";
+                db[i][5] = "Appeared";
                 AttendedFeedback(db,i);
                 PrintTable(db); //
                 System.out.println("\nThank you for Attending the  Class :)\n");
@@ -1306,13 +1306,13 @@ public class Index {
         float avgRating=0;
         System.out.println(db[0][2]);
         for(int i=0;i<5;i++){
-            if(db[i][5]=="Attended"){
+            if(db[i][5]=="Appeared"){
                 noCustomers++;
                 avgRating+=Float.parseFloat(db[i][8]);
             }
         }
         avgRating/=noCustomers;
-        System.out.println("\nNumber of Customers Attended:\t"+noCustomers+"\nAverage Rating of the Class:\t"+avgRating+"\n");
+        System.out.println("\nNumber of Customers Appeared:\t"+noCustomers+"\nAverage Rating of the Class:\t"+avgRating+"\n");
 
     }
 
@@ -1322,44 +1322,44 @@ public class Index {
 
     static void ChampionReportSelect(int month){
 
-        int highIncome=0,yogaIncome=0,boxfitIncome=0,zumbaIncome=0,aquaciseIncome=0;
+        int highIncome=0,spinRevenue=0,bodysculptRevenue=0,zumbaIncome=0,yogaRevenue=0;
 
 
         switch (month){
 
             case 1:
                 for (String[][] items: new String[][][]{i101, i201, i301, i401})
-                    yogaIncome+=ChampionReport(items);
-                System.out.println("Yoga\t\t\t\t"+yogaIncome);
+                    spinRevenue+=ChampionReport(items);
+                System.out.println("Spin\t\t\t\t"+spinRevenue);
 
                 for (String[][] items: new String[][][]{i102, i202, i302, i402})
-                    boxfitIncome+=ChampionReport(items);
-                System.out.println("Box Fit\t\t\t\t"+boxfitIncome);
+                    bodysculptRevenue+=ChampionReport(items);
+                System.out.println("Bodysculpt\t\t\t\t"+bodysculptRevenue);
 
                 for (String[][] items: new String[][][]{i103, i203, i303, i403})
                     zumbaIncome+=ChampionReport(items);
                 System.out.println("Zumba\t\t\t\t"+zumbaIncome);
 
                 for (String[][] items: new String[][][]{i104, i204, i304, i404})
-                    aquaciseIncome+=ChampionReport(items);
-                System.out.println("Aquacise\t\t\t"+aquaciseIncome);
+                    yogaRevenue+=ChampionReport(items);
+                System.out.println("Yoga\t\t\t"+yogaRevenue);
                 break;
             case 2:
                 for (String[][] items: new String[][][]{i501, i601, i701, i801})
-                    yogaIncome+=ChampionReport(items);
-                System.out.println("Yoga\t\t\t\t"+yogaIncome);
+                    spinRevenue+=ChampionReport(items);
+                System.out.println("Spin\t\t\t\t"+spinRevenue);
 
                 for (String[][] items: new String[][][]{i502, i602, i702, i802})
-                    boxfitIncome+=ChampionReport(items);
-                System.out.println("Box Fit\t\t\t\t"+boxfitIncome);
+                    bodysculptRevenue+=ChampionReport(items);
+                System.out.println("Bodysculpt\t\t\t\t"+bodysculptRevenue);
 
                 for (String[][] items: new String[][][]{i503, i603, i703, i803})
                     zumbaIncome+=ChampionReport(items);
                 System.out.println("Zumba\t\t\t\t"+zumbaIncome);
 
                 for (String[][] items: new String[][][]{i504, i604, i704, i804})
-                    aquaciseIncome+=ChampionReport(items);
-                System.out.println("Aquacise\t\t\t"+aquaciseIncome);
+                    yogaRevenue+=ChampionReport(items);
+                System.out.println("Yoga\t\t\t"+yogaRevenue);
                 break;
 
             default:
@@ -1368,19 +1368,19 @@ public class Index {
         }
 
         //Highest Income
-        for( int items : new int[]{yogaIncome, boxfitIncome, zumbaIncome, aquaciseIncome}){
+        for( int items : new int[]{spinRevenue, bodysculptRevenue, zumbaIncome, yogaRevenue}){
             if(items>highIncome)
                 highIncome=items;
         }
         System.out.print("\nHighest Income Class:\t");
-        if(highIncome==yogaIncome)
-            System.out.print("Yoga\t\t");
-        if(highIncome==boxfitIncome)
-            System.out.print("Box Fit\t\t");
+        if(highIncome==spinRevenue)
+            System.out.print("Spin\t\t");
+        if(highIncome==bodysculptRevenue)
+            System.out.print("Bodysculpt\t\t");
         if(highIncome==zumbaIncome)
             System.out.print("Zumba\t\t");
-        if(highIncome==aquaciseIncome)
-            System.out.print("Aquacise\t\t");
+        if(highIncome==yogaRevenue)
+            System.out.print("Yoga\t\t");
 
 
 
@@ -1390,7 +1390,7 @@ public class Index {
 
         int noCustomers=0;
         for(int i=0;i<5;i++){
-            if(db[i][5]=="Attended"){
+            if(db[i][5]=="Appeared"){
                 noCustomers++;
             }
         }
