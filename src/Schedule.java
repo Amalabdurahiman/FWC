@@ -32,37 +32,37 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 11;
+                    return 101;
                 else if(selectOption==2)
-                    return 12;
+                    return 102;
                 else if(selectOption==3)
-                    return 21;
+                    return 201;
                 else if(selectOption==4)
-                    return 22;
+                    return 202;
                 else if(selectOption==5)
-                    return 31;
+                    return 301;
                 else if(selectOption==6)
-                    return 32;
+                    return 302;
                 else if(selectOption==7)
-                    return 41;
+                    return 401;
                 else if(selectOption==8)
-                    return 42;
+                    return 402;
                 else if(selectOption==9)
-                    return 51;
+                    return 501;
                 else if(selectOption==10)
-                    return 52;
+                    return 502;
                 else if(selectOption==11)
-                    return 61;
+                    return 601;
                 else if(selectOption==12)
-                    return 62;
+                    return 602;
                 else if(selectOption==13)
-                    return 71;
+                    return 701;
                 else if(selectOption==14)
-                    return 72;
+                    return 702;
                 else if(selectOption==15)
-                    return 81;
+                    return 801;
                 else if(selectOption==16)
-                    return 82;
+                    return 802;
 
                 break;
 
@@ -90,42 +90,42 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 13;
+                    return 103;
                 else if(selectOption==2)
-                    return 14;
+                    return 104;
                 else if(selectOption==3)
-                    return 23;
+                    return 203;
                 else if(selectOption==4)
-                    return 24;
+                    return 204;
                 else if(selectOption==5)
-                    return 33;
+                    return 303;
                 else if(selectOption==6)
-                    return 34;
+                    return 304;
                 else if(selectOption==7)
-                    return 43;
+                    return 403;
                 else if(selectOption==8)
-                    return 44;
+                    return 404;
                 else if(selectOption==9)
-                    return 53;
+                    return 503;
                 else if(selectOption==10)
-                    return 54;
+                    return 504;
                 else if(selectOption==11)
-                    return 63;
+                    return 603;
                 else if(selectOption==12)
-                    return 64;
+                    return 604;
                 else if(selectOption==13)
-                    return 73;
+                    return 703;
                 else if(selectOption==14)
-                    return 74;
+                    return 704;
                 else if(selectOption==15)
-                    return 83;
+                    return 803;
                 else if(selectOption==16)
-                    return 84;
+                    return 804;
 
                 break;
 
             default:
-                System.out.println("Invalid Choice :(");
+                System.out.println("Wrong Choice");
                 break;
         }
 
@@ -154,21 +154,21 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 11;
+                    return 101;
                 else if(selectOption==2)
-                    return 21;
+                    return 201;
                 else if(selectOption==3)
-                    return 31;
+                    return 301;
                 else if(selectOption==4)
-                    return 41;
+                    return 401;
                 else if(selectOption==5)
-                    return 51;
+                    return 501;
                 else if(selectOption==6)
-                    return 61;
+                    return 601;
                 else if(selectOption==7)
-                    return 71;
+                    return 701;
                 else if(selectOption==8)
-                    return 81;
+                    return 801;
 
                 break;
 
@@ -188,21 +188,21 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 12;
+                    return 102;
                 else if(selectOption==2)
-                    return 22;
+                    return 202;
                 else if(selectOption==3)
-                    return 32;
+                    return 302;
                 else if(selectOption==4)
-                    return 42;
+                    return 402;
                 else if(selectOption==5)
-                    return 52;
+                    return 502;
                 else if(selectOption==6)
-                    return 62;
+                    return 602;
                 else if(selectOption==7)
-                    return 72;
+                    return 702;
                 else if(selectOption==8)
-                    return 82;
+                    return 802;
 
                 break;
 
@@ -222,21 +222,21 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 13;
+                    return 103;
                 else if(selectOption==2)
-                    return 23;
+                    return 203;
                 else if(selectOption==3)
-                    return 33;
+                    return 303;
                 else if(selectOption==4)
-                    return 43;
+                    return 403;
                 else if(selectOption==5)
-                    return 53;
+                    return 503;
                 else if(selectOption==6)
-                    return 63;
+                    return 603;
                 else if(selectOption==7)
-                    return 73;
+                    return 703;
                 else if(selectOption==8)
-                    return 83;
+                    return 803;
 
                 break;
 
@@ -255,27 +255,27 @@ public class Schedule {
                 selectOption=sc.nextInt();
 
                 if(selectOption==1)
-                    return 14;
+                    return 104;
                 else if(selectOption==2)
-                    return 24;
+                    return 204;
                 else if(selectOption==3)
-                    return 34;
+                    return 304;
                 else if(selectOption==4)
-                    return 44;
+                    return 404;
                 else if(selectOption==5)
-                    return 54;
+                    return 504;
                 else if(selectOption==6)
-                    return 64;
+                    return 604;
                 else if(selectOption==7)
-                    return 74;
+                    return 704;
                 else if(selectOption==8)
-                    return 84;
+                    return 804;
 
                 break;
 
 
             default:
-                System.out.println("Invalid Choice :(");
+                System.out.println("Wrong Choice");
                 break;
         }
 
