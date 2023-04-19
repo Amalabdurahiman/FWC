@@ -4,7 +4,7 @@ public class Schedule {
 
     static int selectOption;
     static Scanner sc=new Scanner(System.in);
-    static int TimetableDay(int dayChoice){
+    static int ScheduleDay(int dayChoice){
 
         switch (dayChoice){
 

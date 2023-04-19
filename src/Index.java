@@ -405,7 +405,7 @@ public class Index {
         int already = 0;
         for (int i = 0; i < 5; i++) {
             if (Objects.equals(db[i][0], id)) {
-                System.out.println("\nBooking Already Exist!! :| \n");
+                System.out.println("\nReserved \n");
                 already = 1;
                 break;
 
@@ -1050,7 +1050,7 @@ public class Index {
         else if (cancelClass == 804)
             CancelClass(i804, id,804);
         else
-            System.out.println("\nInvalid Choice :(\n");
+            System.out.println("\nWrong Choice :(\n");
 
     }
 
@@ -1065,7 +1065,7 @@ public class Index {
                 db[i][5] = "Available";
                 addSeat(classCode);
                 PrintTable(db); //
-                System.out.println("\nBooking Canceled :)\n");
+                System.out.println("\nReservation Deleted :)\n");
                 break;
 
 
@@ -1212,7 +1212,7 @@ public class Index {
         else if (attendClass == 804)
             AttendClass(i804, id);
         else
-            System.out.println("\nInvalid Choice :(\n");
+            System.out.println("\nWrong Choice :(\n");
 
     }
 
@@ -1239,7 +1239,7 @@ public class Index {
         System.out.println("\nPlease Provide a Feedback of the Class:\n");
         feedback=sc.nextLine();
         db[i][7]=feedback;
-        System.out.println("\nRate Our Class:\n(1: Very dissatisfied, 2: Dissatisfied, 3: Ok, 4: Satisfied, 5: Very Satisfied)\n");
+        System.out.println("\nRate Our Class:\n(1: Very Dissatisfied, 2: Dissatisfied, 3: Neutral, 4: Satisfied, 5: Very Satisfied)\n");
         rating=sc.nextInt();
         while(rating<1||rating>5){
             System.out.print("\nEnter a Value Between 1 and 5 :\t");
@@ -1257,50 +1257,50 @@ public class Index {
             case 1:
                 for (String[][] items: new String[][][]{i101, i102, i103, i104, i201, i202, i203, i204}){
                     System.out.print("Week 1\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i201, i202, i203, i204}){
                     System.out.print("Week 2\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i301, i302, i303, i304}){
                     System.out.print("Week 3\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i401, i402, i403, i404}){
                     System.out.print("Week 4\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 break;
             case 2:
                 for (String[][] items: new String[][][]{i501, i502, i503, i504}){
                     System.out.print("Week 5\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i601, i602, i603, i604}){
                     System.out.print("Week 6\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i701, i702, i703, i704}){
                     System.out.print("Week 7\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 for (String[][] items: new String[][][]{i801, i802, i803, i804}){
                     System.out.print("Week 8\t\t");
-                    MonthlyReport(items);
+                    MonthlyReview(items);
                 }
                 break;
 
             default:
                 System.out.println("\nMonth Doesnt Exist :(\n");
-                Report.MonthlyReportView();
+                Review.MonthlyReviewView();
 
         }
 
 
     }
 
-    static void MonthlyReport(String[][] db){
+    static void MonthlyReview(String[][] db){
 
         int noCustomers=0;
         float avgRating=0;
@@ -1320,7 +1320,7 @@ public class Index {
 
 //
 
-    static void ChampionReportSelect(int month){
+    static void ChampionReviewSelect(int month){
 
         int highIncome=0,spinRevenue=0,bodysculptRevenue=0,zumbaIncome=0,yogaRevenue=0;
 
@@ -1329,36 +1329,36 @@ public class Index {
 
             case 1:
                 for (String[][] items: new String[][][]{i101, i201, i301, i401})
-                    spinRevenue+=ChampionReport(items);
+                    spinRevenue+=ChampionReview(items);
                 System.out.println("Spin\t\t\t\t"+spinRevenue);
 
                 for (String[][] items: new String[][][]{i102, i202, i302, i402})
-                    bodysculptRevenue+=ChampionReport(items);
+                    bodysculptRevenue+=ChampionReview(items);
                 System.out.println("Bodysculpt\t\t\t\t"+bodysculptRevenue);
 
                 for (String[][] items: new String[][][]{i103, i203, i303, i403})
-                    zumbaIncome+=ChampionReport(items);
+                    zumbaIncome+=ChampionReview(items);
                 System.out.println("Zumba\t\t\t\t"+zumbaIncome);
 
                 for (String[][] items: new String[][][]{i104, i204, i304, i404})
-                    yogaRevenue+=ChampionReport(items);
+                    yogaRevenue+=ChampionReview(items);
                 System.out.println("Yoga\t\t\t"+yogaRevenue);
                 break;
             case 2:
                 for (String[][] items: new String[][][]{i501, i601, i701, i801})
-                    spinRevenue+=ChampionReport(items);
+                    spinRevenue+=ChampionReview(items);
                 System.out.println("Spin\t\t\t\t"+spinRevenue);
 
                 for (String[][] items: new String[][][]{i502, i602, i702, i802})
-                    bodysculptRevenue+=ChampionReport(items);
+                    bodysculptRevenue+=ChampionReview(items);
                 System.out.println("Bodysculpt\t\t\t\t"+bodysculptRevenue);
 
                 for (String[][] items: new String[][][]{i503, i603, i703, i803})
-                    zumbaIncome+=ChampionReport(items);
+                    zumbaIncome+=ChampionReview(items);
                 System.out.println("Zumba\t\t\t\t"+zumbaIncome);
 
                 for (String[][] items: new String[][][]{i504, i604, i704, i804})
-                    yogaRevenue+=ChampionReport(items);
+                    yogaRevenue+=ChampionReview(items);
                 System.out.println("Yoga\t\t\t"+yogaRevenue);
                 break;
 
@@ -1386,7 +1386,7 @@ public class Index {
 
     }
 
-    static int ChampionReport(String[][] db){
+    static int ChampionReview(String[][] db){
 
         int noCustomers=0;
         for(int i=0;i<5;i++){

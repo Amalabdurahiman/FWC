@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Reservation {
 
     static int classCode;
-    static void BookView() {
+    static void ReservationView() {
 
         Scanner sc=new Scanner(System.in);
         int classChoice,dayChoice,fitChoice;
@@ -16,7 +16,7 @@ public class Reservation {
             System.out.println("\nChoose Day");
             System.out.println("1. Saturday\n2. Sunday\n");
             dayChoice = sc.nextInt();
-            classCode=Schedule.TimetableDay(dayChoice);
+            classCode=Schedule.ScheduleDay(dayChoice);
             CheckSeats();
         } else if (classChoice == 2) {
             System.out.println("\nChoose Class");

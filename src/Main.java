@@ -8,15 +8,15 @@ public class Main {
             System.out.println("\n\nFitness Weekend Club (FWC)");
             System.out.println("_________________________________\n");
             System.out.println("Choose your Service");
-            System.out.println("1. Book a Group Fitness Lesson\n2. Change/Cancel a Booking\n3. Attend a Lesson\n4. Monthly Lesson Report\n5. Monthly Champion Fitness Type Report\n6. Exit\n" );
+            System.out.println("1. Book a Group Fitness Lesson\n2. Change/Delete a Booking\n3. Attend a Lesson\n4. Monthly Lesson Report\n5. Monthly Champion Fitness Type Report\n6. Exit\n" );
             choice= sc.nextInt();
             switch(choice){
 
                 case 1:
-                    Reservation.BookView();
+                    Reservation.ReservationView();
                     break;
                 case 2:
-                    Cancel.CancelView();
+                    Delete.DeleteView();
                     break;
 
                 case 3:
@@ -24,11 +24,11 @@ public class Main {
                     break;
 
                 case 4:
-                    Report.MonthlyReportView();
+                    Review.MonthlyReviewView();
                     break;
 
                 case 5:
-                    Report.ChampionReportView();
+                    Review.ChampionReviewView();
                     break;
 
                 case 6:
