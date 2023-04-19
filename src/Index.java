@@ -276,57 +276,57 @@ public class Index {
             return s21;
         else if (classCode == 202)
             return s22;
-        else if (classCode == 23)
+        else if (classCode == 203)
             return s23;
-        else if (classCode == 24)
+        else if (classCode == 204)
             return s24;
-        else if (classCode == 31)
+        else if (classCode == 301)
             return s31;
-        else if (classCode == 32)
+        else if (classCode == 302)
             return s32;
-        else if (classCode == 33)
+        else if (classCode == 303)
             return s33;
-        else if (classCode == 34)
+        else if (classCode == 304)
             return s34;
-        else if (classCode == 41)
+        else if (classCode == 401)
             return s41;
-        else if (classCode == 42)
+        else if (classCode == 402)
             return s42;
-        else if (classCode == 43)
+        else if (classCode == 403)
             return s43;
-        else if (classCode == 44)
+        else if (classCode == 404)
             return s44;
-        else if (classCode == 51)
+        else if (classCode == 501)
             return s51;
-        else if (classCode == 52)
+        else if (classCode == 502)
             return s52;
-        else if (classCode == 53)
+        else if (classCode == 503)
             return s53;
-        else if (classCode == 54)
+        else if (classCode == 504)
             return s54;
-        else if (classCode == 61)
+        else if (classCode == 601)
             return s61;
-        else if (classCode == 62)
+        else if (classCode == 602)
             return s62;
-        else if (classCode == 63)
+        else if (classCode == 603)
             return s63;
-        else if (classCode == 64)
+        else if (classCode == 604)
             return s64;
-        else if (classCode == 71)
+        else if (classCode == 701)
             return s71;
-        else if (classCode == 72)
+        else if (classCode == 702)
             return s72;
-        else if (classCode == 73)
+        else if (classCode == 703)
             return s73;
-        else if (classCode == 74)
+        else if (classCode == 704)
             return s74;
-        else if (classCode == 81)
+        else if (classCode == 801)
             return s81;
-        else if (classCode == 82)
+        else if (classCode == 802)
             return s82;
-        else if (classCode == 83)
+        else if (classCode == 803)
             return s83;
-        else if (classCode == 84)
+        else if (classCode == 804)
             return s84;
 
         return 0;
@@ -346,58 +346,58 @@ public class Index {
             AddBooking(name, id, i201,201);
         else if (classCode == 202)
             AddBooking(name, id, i202,202);
-        else if (classCode == 23)
-            AddBooking(name, id, i203,23);
-        else if (classCode == 24)
-            AddBooking(name, id, i204,24);
-        else if (classCode == 31)
-            AddBooking(name, id, i301,31);
-        else if (classCode == 32)
-            AddBooking(name, id, i302,32);
-        else if (classCode == 33)
-            AddBooking(name, id, i303,33);
-        else if (classCode == 34)
-            AddBooking(name, id, i304,34);
-        else if (classCode == 41)
-            AddBooking(name, id, i401,41);
-        else if (classCode == 42)
-            AddBooking(name, id, i402,42);
-        else if (classCode == 43)
-            AddBooking(name, id, i403,43);
-        else if (classCode == 44)
-            AddBooking(name, id, i404,44);
-        else if (classCode == 51)
-            AddBooking(name, id, i501,51);
-        else if (classCode == 52)
-            AddBooking(name, id, i502,52);
-        else if (classCode == 53)
-            AddBooking(name, id, i503,53);
-        else if (classCode == 54)
-            AddBooking(name, id, i504,54);
-        else if (classCode == 61)
-            AddBooking(name, id, i601,61);
-        else if (classCode == 62)
-            AddBooking(name, id, i602,62);
-        else if (classCode == 63)
-            AddBooking(name, id, i603,63);
-        else if (classCode == 64)
-            AddBooking(name, id, i604,64);
-        else if (classCode == 71)
-            AddBooking(name, id, i701,71);
-        else if (classCode == 72)
-            AddBooking(name, id, i702,72);
-        else if (classCode == 73)
-            AddBooking(name, id, i703,73);
-        else if (classCode == 74)
-            AddBooking(name, id, i704,74);
-        else if (classCode == 81)
-            AddBooking(name, id, i801,81);
-        else if (classCode == 82)
-            AddBooking(name, id, i802,82);
-        else if (classCode == 83)
-            AddBooking(name, id, i803,83);
-        else if (classCode == 84)
-            AddBooking(name, id, i804,84);
+        else if (classCode == 203)
+            AddBooking(name, id, i203,203);
+        else if (classCode == 204)
+            AddBooking(name, id, i204,204);
+        else if (classCode == 301)
+            AddBooking(name, id, i301,301);
+        else if (classCode == 302)
+            AddBooking(name, id, i302,302);
+        else if (classCode == 303)
+            AddBooking(name, id, i303,303);
+        else if (classCode == 304)
+            AddBooking(name, id, i304,304);
+        else if (classCode == 401)
+            AddBooking(name, id, i401,401);
+        else if (classCode == 402)
+            AddBooking(name, id, i402,402);
+        else if (classCode == 403)
+            AddBooking(name, id, i403,403);
+        else if (classCode == 404)
+            AddBooking(name, id, i404,404);
+        else if (classCode == 501)
+            AddBooking(name, id, i501,501);
+        else if (classCode == 502)
+            AddBooking(name, id, i502,502);
+        else if (classCode == 503)
+            AddBooking(name, id, i503,503);
+        else if (classCode == 504)
+            AddBooking(name, id, i504,504);
+        else if (classCode == 601)
+            AddBooking(name, id, i601,601);
+        else if (classCode == 602)
+            AddBooking(name, id, i602,602);
+        else if (classCode == 603)
+            AddBooking(name, id, i603,603);
+        else if (classCode == 604)
+            AddBooking(name, id, i604,604);
+        else if (classCode == 701)
+            AddBooking(name, id, i701,701);
+        else if (classCode == 702)
+            AddBooking(name, id, i702,702);
+        else if (classCode == 703)
+            AddBooking(name, id, i703,703);
+        else if (classCode == 704)
+            AddBooking(name, id, i704,704);
+        else if (classCode == 801)
+            AddBooking(name, id, i801,801);
+        else if (classCode == 802)
+            AddBooking(name, id, i802,802);
+        else if (classCode == 803)
+            AddBooking(name, id, i803,803);
+        else if (classCode == 804)
+            AddBooking(name, id, i804,804);
 
     }
 
@@ -452,57 +452,57 @@ public class Index {
             s21--;
         else if(classCode==202)
             s22--;
-        else if(classCode==23)
+        else if(classCode==203)
             s23--;
-        else if(classCode==24)
+        else if(classCode==204)
             s24--;
-        else if(classCode==31)
+        else if(classCode==301)
             s31--;
-        else if(classCode==32)
+        else if(classCode==302)
             s32--;
-        else if(classCode==33)
+        else if(classCode==303)
             s33--;
-        else if(classCode==34)
+        else if(classCode==304)
             s34--;
-        else if(classCode==41)
+        else if(classCode==401)
             s41--;
-        else if(classCode==42)
+        else if(classCode==402)
             s42--;
-        else if(classCode==43)
+        else if(classCode==403)
             s43--;
-        else if(classCode==44)
+        else if(classCode==404)
             s44--;
-        else if(classCode==51)
+        else if(classCode==501)
             s51--;
-        else if(classCode==52)
+        else if(classCode==502)
             s52--;
-        else if(classCode==53)
+        else if(classCode==503)
             s53--;
-        else if(classCode==54)
+        else if(classCode==504)
             s54--;
-        else if(classCode==61)
+        else if(classCode==601)
             s61--;
-        else if(classCode==62)
+        else if(classCode==602)
             s62--;
-        else if(classCode==63)
+        else if(classCode==603)
             s63--;
-        else if(classCode==64)
+        else if(classCode==604)
             s64--;
-        else if(classCode==71)
+        else if(classCode==701)
             s71--;
-        else if(classCode==72)
+        else if(classCode==702)
             s72--;
-        else if(classCode==73)
+        else if(classCode==703)
             s73--;
-        else if(classCode==74)
+        else if(classCode==704)
             s74--;
-        else if(classCode==81)
+        else if(classCode==801)
             s81--;
-        else if(classCode==82)
+        else if(classCode==802)
             s82--;
-        else if(classCode==83)
+        else if(classCode==803)
             s83--;
-        else if(classCode==84)
+        else if(classCode==804)
             s84--;
     }
 
@@ -511,7 +511,7 @@ public class Index {
 
     static int[] SearchId(String id) {
 
-        int[] idClassCode = new int[32];
+        int[] idClassCode = new int[302];
         int found = 0, i;
 
         //i101
@@ -565,7 +565,7 @@ public class Index {
         //i203
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i203[i][0])&&(!Objects.equals(i203[i][5], "Attended"))) {
-                idClassCode[found] = 23;
+                idClassCode[found] = 203;
                 found++;
                 break;
             }
@@ -573,7 +573,7 @@ public class Index {
         //i204
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i204[i][0])&&(!Objects.equals(i204[i][5], "Attended"))) {
-                idClassCode[found] = 24;
+                idClassCode[found] = 204;
                 found++;
                 break;
             }
@@ -581,7 +581,7 @@ public class Index {
         //i301
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i301[i][0])&&(!Objects.equals(i301[i][5], "Attended"))) {
-                idClassCode[found] = 31;
+                idClassCode[found] = 301;
                 found++;
                 break;
             }
@@ -589,7 +589,7 @@ public class Index {
         //i302
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i302[i][0])&&(!Objects.equals(i302[i][5], "Attended"))) {
-                idClassCode[found] = 32;
+                idClassCode[found] = 302;
                 found++;
                 break;
             }
@@ -597,7 +597,7 @@ public class Index {
         //i303
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i303[i][0])&&(!Objects.equals(i303[i][5], "Attended"))) {
-                idClassCode[found] = 33;
+                idClassCode[found] = 303;
                 found++;
                 break;
             }
@@ -605,7 +605,7 @@ public class Index {
         //i304
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i304[i][0])&&(!Objects.equals(i304[i][5], "Attended"))) {
-                idClassCode[found] = 34;
+                idClassCode[found] = 304;
                 found++;
                 break;
             }
@@ -613,7 +613,7 @@ public class Index {
         //i401
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i401[i][0])&&(!Objects.equals(i401[i][5], "Attended"))) {
-                idClassCode[found] = 41;
+                idClassCode[found] = 401;
                 found++;
                 break;
             }
@@ -621,7 +621,7 @@ public class Index {
         //i402
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i402[i][0])&&(!Objects.equals(i402[i][5], "Attended"))) {
-                idClassCode[found] = 42;
+                idClassCode[found] = 402;
                 found++;
                 break;
             }
@@ -629,7 +629,7 @@ public class Index {
         //i403
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i403[i][0])&&(!Objects.equals(i403[i][5], "Attended"))) {
-                idClassCode[found] = 43;
+                idClassCode[found] = 403;
                 found++;
                 break;
             }
@@ -637,7 +637,7 @@ public class Index {
         //i404
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i404[i][0])&&(!Objects.equals(i404[i][5], "Attended"))) {
-                idClassCode[found] = 44;
+                idClassCode[found] = 404;
                 found++;
                 break;
             }
@@ -645,7 +645,7 @@ public class Index {
         //i501
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i501[i][0])&&(!Objects.equals(i501[i][5], "Attended"))) {
-                idClassCode[found] = 51;
+                idClassCode[found] = 501;
                 found++;
                 break;
             }
@@ -653,7 +653,7 @@ public class Index {
         //i502
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i502[i][0])&&(!Objects.equals(i502[i][5], "Attended"))) {
-                idClassCode[found] = 52;
+                idClassCode[found] = 502;
                 found++;
                 break;
             }
@@ -661,7 +661,7 @@ public class Index {
         //i503
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i503[i][0])&&(!Objects.equals(i503[i][5], "Attended"))) {
-                idClassCode[found] = 53;
+                idClassCode[found] = 503;
                 found++;
                 break;
             }
@@ -669,7 +669,7 @@ public class Index {
         //i504
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i504[i][0])&&(!Objects.equals(i504[i][5], "Attended"))) {
-                idClassCode[found] = 54;
+                idClassCode[found] = 504;
                 found++;
                 break;
             }
@@ -677,7 +677,7 @@ public class Index {
         //i601
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i601[i][0])&&(!Objects.equals(i601[i][5], "Attended"))) {
-                idClassCode[found] = 61;
+                idClassCode[found] = 601;
                 found++;
                 break;
             }
@@ -685,7 +685,7 @@ public class Index {
         //i602
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i602[i][0])&&(!Objects.equals(i602[i][5], "Attended"))) {
-                idClassCode[found] = 62;
+                idClassCode[found] = 602;
                 found++;
                 break;
             }
@@ -693,7 +693,7 @@ public class Index {
         //i603
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i603[i][0])&&(!Objects.equals(i603[i][5], "Attended"))) {
-                idClassCode[found] = 63;
+                idClassCode[found] = 603;
                 found++;
                 break;
             }
@@ -701,7 +701,7 @@ public class Index {
         //i604
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i604[i][0])&&(!Objects.equals(i604[i][5], "Attended"))) {
-                idClassCode[found] = 64;
+                idClassCode[found] = 604;
                 found++;
                 break;
             }
@@ -709,7 +709,7 @@ public class Index {
         //i701
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i701[i][0])&&(!Objects.equals(i701[i][5], "Attended"))) {
-                idClassCode[found] = 71;
+                idClassCode[found] = 701;
                 found++;
                 break;
             }
@@ -717,7 +717,7 @@ public class Index {
         //i702
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i702[i][0])&&(!Objects.equals(i702[i][5], "Attended"))) {
-                idClassCode[found] = 72;
+                idClassCode[found] = 702;
                 found++;
                 break;
             }
@@ -725,7 +725,7 @@ public class Index {
         //i703
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i703[i][0])&&(!Objects.equals(i703[i][5], "Attended"))) {
-                idClassCode[found] = 73;
+                idClassCode[found] = 703;
                 found++;
                 break;
             }
@@ -733,7 +733,7 @@ public class Index {
         //i704
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i704[i][0])&&(!Objects.equals(i704[i][5], "Attended"))) {
-                idClassCode[found] = 74;
+                idClassCode[found] = 704;
                 found++;
                 break;
             }
@@ -741,7 +741,7 @@ public class Index {
         //i801
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i801[i][0])&&(!Objects.equals(i801[i][5], "Attended"))) {
-                idClassCode[found] = 81;
+                idClassCode[found] = 801;
                 found++;
                 break;
             }
@@ -749,7 +749,7 @@ public class Index {
         //i802
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i802[i][0])&&(!Objects.equals(i802[i][5], "Attended"))) {
-                idClassCode[found] = 82;
+                idClassCode[found] = 802;
                 found++;
                 break;
             }
@@ -757,7 +757,7 @@ public class Index {
         //i803
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i803[i][0])&&(!Objects.equals(i803[i][5], "Attended"))) {
-                idClassCode[found] = 83;
+                idClassCode[found] = 803;
                 found++;
                 break;
             }
@@ -765,7 +765,7 @@ public class Index {
         //i804
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i804[i][0])&&(!Objects.equals(i804[i][5], "Attended"))) {
-                idClassCode[found] = 84;
+                idClassCode[found] = 804;
                 found++;
                 break;
             }
@@ -820,157 +820,157 @@ public class Index {
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 23) {
+            else if (idClassCode[i] == 203) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 24) {
+            else if (idClassCode[i] == 204) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 31) {
+            else if (idClassCode[i] == 301) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 32) {
+            else if (idClassCode[i] == 302) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 3\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 33) {
+            else if (idClassCode[i] == 303) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 34) {
+            else if (idClassCode[i] == 304) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 41) {
+            else if (idClassCode[i] == 401) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 42) {
+            else if (idClassCode[i] == 402) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 4\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 43) {
+            else if (idClassCode[i] == 403) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 44) {
+            else if (idClassCode[i] == 404) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 51) {
+            else if (idClassCode[i] == 501) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 52) {
+            else if (idClassCode[i] == 502) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 5\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 53) {
+            else if (idClassCode[i] == 503) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 54) {
+            else if (idClassCode[i] == 504) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 61) {
+            else if (idClassCode[i] == 601) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 62) {
+            else if (idClassCode[i] == 602) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 6\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 63) {
+            else if (idClassCode[i] == 603) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 64) {
+            else if (idClassCode[i] == 604) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 71) {
+            else if (idClassCode[i] == 701) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 72) {
+            else if (idClassCode[i] == 702) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 7\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 73) {
+            else if (idClassCode[i] == 703) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 74) {
+            else if (idClassCode[i] == 704) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 81) {
+            else if (idClassCode[i] == 801) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 82) {
+            else if (idClassCode[i] == 802) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 8\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 83) {
+            else if (idClassCode[i] == 803) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
-            else if (idClassCode[i] == 84) {
+            else if (idClassCode[i] == 804) {
 
                 System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\tAquacise\t\t10:00AM\t\t5");
                 i++;
@@ -997,58 +997,58 @@ public class Index {
             CancelClass(i201, id,201);
         else if (cancelClass == 202)
             CancelClass(i202, id,202);
-        else if (cancelClass == 23)
-            CancelClass(i203, id,23);
-        else if (cancelClass == 24)
-            CancelClass(i204, id,24);
-        else if (cancelClass == 31)
-            CancelClass(i301, id,31);
-        else if (cancelClass == 32)
-            CancelClass(i302, id,32);
-        else if (cancelClass == 33)
-            CancelClass(i303, id,33);
-        else if (cancelClass == 34)
-            CancelClass(i304, id,34);
-        else if (cancelClass == 41)
-            CancelClass(i401, id,41);
-        else if (cancelClass == 42)
-            CancelClass(i402, id,42);
-        else if (cancelClass == 43)
-            CancelClass(i403, id,43);
-        else if (cancelClass == 44)
-            CancelClass(i404, id,44);
-        else if (cancelClass == 51)
-            CancelClass(i501, id,51);
-        else if (cancelClass == 52)
-            CancelClass(i502, id,52);
-        else if (cancelClass == 53)
-            CancelClass(i503, id,53);
-        else if (cancelClass == 54)
-            CancelClass(i504, id,54);
-        else if (cancelClass == 61)
-            CancelClass(i601, id,61);
-        else if (cancelClass == 62)
-            CancelClass(i602, id,62);
-        else if (cancelClass == 63)
-            CancelClass(i603, id,63);
-        else if (cancelClass == 64)
-            CancelClass(i604, id,64);
-        else if (cancelClass == 71)
-            CancelClass(i701, id,71);
-        else if (cancelClass == 72)
-            CancelClass(i702, id,72);
-        else if (cancelClass == 73)
-            CancelClass(i703, id,73);
-        else if (cancelClass == 74)
-            CancelClass(i704, id,74);
-        else if (cancelClass == 81)
-            CancelClass(i801, id,81);
-        else if (cancelClass == 82)
-            CancelClass(i802, id,82);
-        else if (cancelClass == 83)
-            CancelClass(i803, id,83);
-        else if (cancelClass == 84)
-            CancelClass(i804, id,84);
+        else if (cancelClass == 203)
+            CancelClass(i203, id,203);
+        else if (cancelClass == 204)
+            CancelClass(i204, id,204);
+        else if (cancelClass == 301)
+            CancelClass(i301, id,301);
+        else if (cancelClass == 302)
+            CancelClass(i302, id,302);
+        else if (cancelClass == 303)
+            CancelClass(i303, id,303);
+        else if (cancelClass == 304)
+            CancelClass(i304, id,304);
+        else if (cancelClass == 401)
+            CancelClass(i401, id,401);
+        else if (cancelClass == 402)
+            CancelClass(i402, id,402);
+        else if (cancelClass == 403)
+            CancelClass(i403, id,403);
+        else if (cancelClass == 404)
+            CancelClass(i404, id,404);
+        else if (cancelClass == 501)
+            CancelClass(i501, id,501);
+        else if (cancelClass == 502)
+            CancelClass(i502, id,502);
+        else if (cancelClass == 503)
+            CancelClass(i503, id,503);
+        else if (cancelClass == 504)
+            CancelClass(i504, id,504);
+        else if (cancelClass == 601)
+            CancelClass(i601, id,601);
+        else if (cancelClass == 602)
+            CancelClass(i602, id,602);
+        else if (cancelClass == 603)
+            CancelClass(i603, id,603);
+        else if (cancelClass == 604)
+            CancelClass(i604, id,604);
+        else if (cancelClass == 701)
+            CancelClass(i701, id,701);
+        else if (cancelClass == 702)
+            CancelClass(i702, id,702);
+        else if (cancelClass == 703)
+            CancelClass(i703, id,703);
+        else if (cancelClass == 704)
+            CancelClass(i704, id,704);
+        else if (cancelClass == 801)
+            CancelClass(i801, id,801);
+        else if (cancelClass == 802)
+            CancelClass(i802, id,802);
+        else if (cancelClass == 803)
+            CancelClass(i803, id,803);
+        else if (cancelClass == 804)
+            CancelClass(i804, id,804);
         else
             System.out.println("\nInvalid Choice :(\n");
 
@@ -1090,57 +1090,57 @@ public class Index {
             s21++;
         else if(classCode==202)
             s22++;
-        else if(classCode==23)
+        else if(classCode==203)
             s23++;
-        else if(classCode==24)
+        else if(classCode==204)
             s24++;
-        else if(classCode==31)
+        else if(classCode==301)
             s31++;
-        else if(classCode==32)
+        else if(classCode==302)
             s32++;
-        else if(classCode==33)
+        else if(classCode==303)
             s33++;
-        else if(classCode==34)
+        else if(classCode==304)
             s34++;
-        else if(classCode==41)
+        else if(classCode==401)
             s41++;
-        else if(classCode==42)
+        else if(classCode==402)
             s42++;
-        else if(classCode==43)
+        else if(classCode==403)
             s43++;
-        else if(classCode==44)
+        else if(classCode==404)
             s44++;
-        else if(classCode==51)
+        else if(classCode==501)
             s51++;
-        else if(classCode==52)
+        else if(classCode==502)
             s52++;
-        else if(classCode==53)
+        else if(classCode==503)
             s53++;
-        else if(classCode==54)
+        else if(classCode==504)
             s54++;
-        else if(classCode==61)
+        else if(classCode==601)
             s61++;
-        else if(classCode==62)
+        else if(classCode==602)
             s62++;
-        else if(classCode==63)
+        else if(classCode==603)
             s63++;
-        else if(classCode==64)
+        else if(classCode==604)
             s64++;
-        else if(classCode==71)
+        else if(classCode==701)
             s71++;
-        else if(classCode==72)
+        else if(classCode==702)
             s72++;
-        else if(classCode==73)
+        else if(classCode==703)
             s73++;
-        else if(classCode==74)
+        else if(classCode==704)
             s74++;
-        else if(classCode==81)
+        else if(classCode==801)
             s81++;
-        else if(classCode==82)
+        else if(classCode==802)
             s82++;
-        else if(classCode==83)
+        else if(classCode==803)
             s83++;
-        else if(classCode==84)
+        else if(classCode==804)
             s84++;
     }
 
@@ -1159,57 +1159,57 @@ public class Index {
             AttendClass(i201, id);
         else if (attendClass == 202)
             AttendClass(i202, id);
-        else if (attendClass == 23)
+        else if (attendClass == 203)
             AttendClass(i203, id);
-        else if (attendClass == 24)
+        else if (attendClass == 204)
             AttendClass(i204, id);
-        else if (attendClass == 31)
+        else if (attendClass == 301)
             AttendClass(i301, id);
-        else if (attendClass == 32)
+        else if (attendClass == 302)
             AttendClass(i302, id);
-        else if (attendClass == 33)
+        else if (attendClass == 303)
             AttendClass(i303, id);
-        else if (attendClass == 34)
+        else if (attendClass == 304)
             AttendClass(i304, id);
-        else if (attendClass == 41)
+        else if (attendClass == 401)
             AttendClass(i401, id);
-        else if (attendClass == 42)
+        else if (attendClass == 402)
             AttendClass(i402, id);
-        else if (attendClass == 43)
+        else if (attendClass == 403)
             AttendClass(i403, id);
-        else if (attendClass == 44)
+        else if (attendClass == 404)
             AttendClass(i404, id);
-        else if (attendClass == 51)
+        else if (attendClass == 501)
             AttendClass(i501, id);
-        else if (attendClass == 52)
+        else if (attendClass == 502)
             AttendClass(i502, id);
-        else if (attendClass == 53)
+        else if (attendClass == 503)
             AttendClass(i503, id);
-        else if (attendClass == 54)
+        else if (attendClass == 504)
             AttendClass(i504, id);
-        else if (attendClass == 61)
+        else if (attendClass == 601)
             AttendClass(i601, id);
-        else if (attendClass == 62)
+        else if (attendClass == 602)
             AttendClass(i602, id);
-        else if (attendClass == 63)
+        else if (attendClass == 603)
             AttendClass(i603, id);
-        else if (attendClass == 64)
+        else if (attendClass == 604)
             AttendClass(i604, id);
-        else if (attendClass == 71)
+        else if (attendClass == 701)
             AttendClass(i701, id);
-        else if (attendClass == 72)
+        else if (attendClass == 702)
             AttendClass(i702, id);
-        else if (attendClass == 73)
+        else if (attendClass == 703)
             AttendClass(i703, id);
-        else if (attendClass == 74)
+        else if (attendClass == 704)
             AttendClass(i704, id);
-        else if (attendClass == 81)
+        else if (attendClass == 801)
             AttendClass(i801, id);
-        else if (attendClass == 82)
+        else if (attendClass == 802)
             AttendClass(i802, id);
-        else if (attendClass == 83)
+        else if (attendClass == 803)
             AttendClass(i803, id);
-        else if (attendClass == 84)
+        else if (attendClass == 804)
             AttendClass(i804, id);
         else
             System.out.println("\nInvalid Choice :(\n");
