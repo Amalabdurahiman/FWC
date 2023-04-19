@@ -5,7 +5,7 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int choice;
         do{
-            System.out.println("\n\nThe Weekend Fitness Club (WFC)");
+            System.out.println("\n\nFitness Weekend Club (FWC)");
             System.out.println("_________________________________\n");
             System.out.println("Choose your Service");
             System.out.println("1. Book a Group Fitness Lesson\n2. Change/Cancel a Booking\n3. Attend a Lesson\n4. Monthly Lesson Report\n5. Monthly Champion Fitness Type Report\n6. Exit\n" );
