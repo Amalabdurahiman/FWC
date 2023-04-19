@@ -13,7 +13,7 @@ public class Main {
             switch(choice){
 
                 case 1:
-                    Booking.BookView();
+                    Reservation.BookView();
                     break;
                 case 2:
                     Cancel.CancelView();
