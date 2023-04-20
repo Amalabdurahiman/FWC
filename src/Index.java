@@ -1364,7 +1364,7 @@ public class Index {
 
             default:
                 System.out.println("\nMonth Doesnt Exist :(\n");
-                Report.ChampionReportView();
+                Review.ChampionReviewView();
         }
 
         //Highest Income
