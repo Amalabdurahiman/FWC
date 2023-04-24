@@ -5,7 +5,7 @@ import java.io.ByteArrayInputStream;
 class ReservationTest {
 
     @Test
-    void reservationView() {
+    void testreservationView() {
         ByteArrayInputStream userInput1 = new ByteArrayInputStream("3".getBytes());
         System.setIn(userInput1);
         Reservation.ReservationView();
@@ -13,12 +13,12 @@ class ReservationTest {
     }
 
     @Test
-    void checkSeats() {
+    void testcheckSeats() {
         Reservation.CheckSeats();
     }
 
     @Test
-    void reserveSeat() {
+    void testreserveSeat() {
         ByteArrayInputStream userInput1 = new ByteArrayInputStream("amal\n222".getBytes());
         System.setIn(userInput1);
         Reservation.ReserveSeat();

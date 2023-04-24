@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Index {
 
-    static int sr101 = 0, sr102 = 5, sr103 = 2, sr104 = 0, sr201 = 1, sr202 = 3, sr203 = 3, sr204 = 1, sr301 = 5, sr302 = 4, sr303 = 4, sr304 = 0, sr401 = 0, sr402 = 3, sr403 = 0, sr404 = 2, sr501 = 4, sr502 = 3, sr503 = 1, sr504 = 5, sr601 = 4, sr602 = 2, sr603 = 2, sr604 = 3, sr701 = 2, sr702 = 5, sr703 = 4, sr704 = 2, sr801 = 1, sr802 = 0, sr803 = 0, sr804 = 5;
+    static int sr101 = 0, sr102 = 5, sr103 = 2, sr104 = 0, sr201 = 1, sr202 = 3, sr203 = 3, sr204 = 1, sr301 = 5, sr302 = 4, sr303 = 4, sr304 = 0, sr401 = 0, sr402 = 3, sr403 = 0, sr404 = 2, sr501 = 4, sr502 = 3, sr503 = 2, sr504 = 5, sr601 = 4, sr602 = 2, sr603 = 2, sr604 = 3, sr701 = 2, sr702 = 5, sr703 = 4, sr704 = 3, sr801 = 1, sr802 = 0, sr803 = 1, sr804 = 5;
 
     static String[][] i101 = {
             {"1661", "William", "Spin", "Saturday", "10:00", "Reserved", "2","None","0"},
@@ -153,7 +153,7 @@ public class Index {
             {"1661", "William", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
             {"1772", "Jessica", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
             {"1013", "Craig", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
-            {"1004", "Erin", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
+            {"0", "None", "Zumba", "Sunday", "10:00", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "10:00", "Available", "4","None","0"},
     };
 
@@ -224,7 +224,7 @@ public class Index {
     static String[][] i704 = {
             {"1145", "Danna", "Yoga", "Sunday", "13:00", "Reserved", "5","None","0"},
             {"1049", "Walker", "Yoga", "Sunday", "13:00", "Reserved", "5","None","0"},
-            {"1728", "Hana", "Yoga", "Sunday", "13:00", "Reserved", "5","None","0"},
+            {"0", "None", "Yoga", "Sunday", "13:00", "Available", "5","None","0"},
             {"0", "None", "Yoga", "Sunday", "13:00", "Available", "5","None","0"},
             {"0", "None", "Yoga", "Sunday", "13:00", "Available", "5","None","0"},
     };
@@ -250,7 +250,7 @@ public class Index {
             {"1661", "William", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
             {"1772", "Jessica", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
             {"1013", "Craig", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
-            {"1004", "Erin", "Zumba", "Sunday", "10:00", "Reserved", "4","None","0"},
+            {"0", "None", "Zumba", "Sunday", "10:00", "Available", "4","None","0"},
     };
 
     static String[][] i804 = {
