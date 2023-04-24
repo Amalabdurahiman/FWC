@@ -29,9 +29,9 @@ class IndexTest {
                 {"0", "None", "Yoga", "Sunday", "10:00", "Available", "5","None","0"},
         };
 
-        Index.addSeat("Mohammed","555",id,103);
+        Index.addSeat("Mohammed","333",id,103);
         assertEquals("Mohammed",id[3][1]);
-        assertEquals("555",id[3][0]);
+        assertEquals("333",id[3][0]);
         assertEquals("Kevin",id[0][1]);
         assertEquals("Booked",id[3][5]);
     }
