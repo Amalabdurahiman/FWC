@@ -5,7 +5,7 @@ import java.io.ByteArrayInputStream;
 class ReviewTest {
 
     @Test
-    void test1monthlyReviewShow() {
+    void testmonthlyReviewShow() {
         ByteArrayInputStream UserIN1 = new ByteArrayInputStream("1".getBytes());
         System.setIn(UserIN1);
         Review.MonthlyReviewShow();
@@ -13,7 +13,7 @@ class ReviewTest {
     }
 
     @Test
-    void test2championReviewShow() {
+    void testchampionReviewShow() {
         ByteArrayInputStream UserIN2 = new ByteArrayInputStream("2".getBytes());
         System.setIn(UserIN2);
         Review.MonthlyReviewShow();
