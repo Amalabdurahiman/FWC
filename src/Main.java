@@ -5,10 +5,10 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int choice;
         do{
-            System.out.println("\n\nFitness Weekend Club (FWC)");
+            System.out.println("\n\nWelcome to Fitness Weekend Club (FWC)");
             System.out.println("_________________________________\n");
-            System.out.println("Choose your Service");
-            System.out.println("1. Book a Group Fitness Lesson\n2. Change/Delete a Booking\n3. Attend a Lesson\n4. Monthly Lesson Report\n5. Monthly Champion Fitness Type Report\n6. Exit\n" );
+            System.out.println("Menu");
+            System.out.println("1. Reserve Fitness Lesson\n2. Change/Delete a Reservation\n3. Attend a Lesson\n4. Monthly Report\n5. Monthly Champion Fitness Report\n6. Exit\n" );
             choice= sc.nextInt();
             switch(choice){
 
@@ -32,11 +32,11 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("\nThank you! :)\n\n");
+                    System.out.println("\nTHANK YOU\n\n");
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Invalid Choice :(\n");
+                    System.out.println("Wrong Choice\n");
                     break;
 
             }

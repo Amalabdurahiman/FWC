@@ -262,146 +262,146 @@ public class Index {
     };
 
 
-    static int SeatAvailable(int classCode) {
+    static int SeatAvailable(int classKey) {
 
-        if (classCode == 101)
+        if (classKey == 101)
             return sr101;
-        else if (classCode == 102)
+        else if (classKey == 102)
             return sr102;
-        else if (classCode == 103)
+        else if (classKey == 103)
             return sr103;
-        else if (classCode == 104)
+        else if (classKey == 104)
             return sr104;
-        else if (classCode == 201)
+        else if (classKey == 201)
             return sr201;
-        else if (classCode == 202)
+        else if (classKey == 202)
             return sr202;
-        else if (classCode == 203)
+        else if (classKey == 203)
             return sr203;
-        else if (classCode == 204)
+        else if (classKey == 204)
             return sr204;
-        else if (classCode == 301)
+        else if (classKey == 301)
             return sr301;
-        else if (classCode == 302)
+        else if (classKey == 302)
             return sr302;
-        else if (classCode == 303)
+        else if (classKey == 303)
             return sr303;
-        else if (classCode == 304)
+        else if (classKey == 304)
             return sr304;
-        else if (classCode == 401)
+        else if (classKey == 401)
             return sr401;
-        else if (classCode == 402)
+        else if (classKey == 402)
             return sr402;
-        else if (classCode == 403)
+        else if (classKey == 403)
             return sr403;
-        else if (classCode == 404)
+        else if (classKey == 404)
             return sr404;
-        else if (classCode == 501)
+        else if (classKey == 501)
             return sr501;
-        else if (classCode == 502)
+        else if (classKey == 502)
             return sr502;
-        else if (classCode == 503)
+        else if (classKey == 503)
             return sr503;
-        else if (classCode == 504)
+        else if (classKey == 504)
             return sr504;
-        else if (classCode == 601)
+        else if (classKey == 601)
             return sr601;
-        else if (classCode == 602)
+        else if (classKey == 602)
             return sr602;
-        else if (classCode == 603)
+        else if (classKey == 603)
             return sr603;
-        else if (classCode == 604)
+        else if (classKey == 604)
             return sr604;
-        else if (classCode == 701)
+        else if (classKey == 701)
             return sr701;
-        else if (classCode == 702)
+        else if (classKey == 702)
             return sr702;
-        else if (classCode == 703)
+        else if (classKey == 703)
             return sr703;
-        else if (classCode == 704)
+        else if (classKey == 704)
             return sr704;
-        else if (classCode == 801)
+        else if (classKey == 801)
             return sr801;
-        else if (classCode == 802)
+        else if (classKey == 802)
             return sr802;
-        else if (classCode == 803)
+        else if (classKey == 803)
             return sr803;
-        else if (classCode == 804)
+        else if (classKey == 804)
             return sr804;
 
         return 0;
     }
 
-    static void SelectBookingClass(String name, String id, int classCode) {
+    static void SelectBookingClass(String name, String id, int classKey) {
 
-        if (classCode == 101)
+        if (classKey == 101)
             AddBooking(name, id, i101, 101);
-        else if (classCode == 102)
+        else if (classKey == 102)
             AddBooking(name, id, i102,102);
-        else if (classCode == 103)
+        else if (classKey == 103)
             AddBooking(name, id, i103,103);
-        else if (classCode == 104)
+        else if (classKey == 104)
             AddBooking(name, id, i104,104);
-        else if (classCode == 201)
+        else if (classKey == 201)
             AddBooking(name, id, i201,201);
-        else if (classCode == 202)
+        else if (classKey == 202)
             AddBooking(name, id, i202,202);
-        else if (classCode == 203)
+        else if (classKey == 203)
             AddBooking(name, id, i203,203);
-        else if (classCode == 204)
+        else if (classKey == 204)
             AddBooking(name, id, i204,204);
-        else if (classCode == 301)
+        else if (classKey == 301)
             AddBooking(name, id, i301,301);
-        else if (classCode == 302)
+        else if (classKey == 302)
             AddBooking(name, id, i302,302);
-        else if (classCode == 303)
+        else if (classKey == 303)
             AddBooking(name, id, i303,303);
-        else if (classCode == 304)
+        else if (classKey == 304)
             AddBooking(name, id, i304,304);
-        else if (classCode == 401)
+        else if (classKey == 401)
             AddBooking(name, id, i401,401);
-        else if (classCode == 402)
+        else if (classKey == 402)
             AddBooking(name, id, i402,402);
-        else if (classCode == 403)
+        else if (classKey == 403)
             AddBooking(name, id, i403,403);
-        else if (classCode == 404)
+        else if (classKey == 404)
             AddBooking(name, id, i404,404);
-        else if (classCode == 501)
+        else if (classKey == 501)
             AddBooking(name, id, i501,501);
-        else if (classCode == 502)
+        else if (classKey == 502)
             AddBooking(name, id, i502,502);
-        else if (classCode == 503)
+        else if (classKey == 503)
             AddBooking(name, id, i503,503);
-        else if (classCode == 504)
+        else if (classKey == 504)
             AddBooking(name, id, i504,504);
-        else if (classCode == 601)
+        else if (classKey == 601)
             AddBooking(name, id, i601,601);
-        else if (classCode == 602)
+        else if (classKey == 602)
             AddBooking(name, id, i602,602);
-        else if (classCode == 603)
+        else if (classKey == 603)
             AddBooking(name, id, i603,603);
-        else if (classCode == 604)
+        else if (classKey == 604)
             AddBooking(name, id, i604,604);
-        else if (classCode == 701)
+        else if (classKey == 701)
             AddBooking(name, id, i701,701);
-        else if (classCode == 702)
+        else if (classKey == 702)
             AddBooking(name, id, i702,702);
-        else if (classCode == 703)
+        else if (classKey == 703)
             AddBooking(name, id, i703,703);
-        else if (classCode == 704)
+        else if (classKey == 704)
             AddBooking(name, id, i704,704);
-        else if (classCode == 801)
+        else if (classKey == 801)
             AddBooking(name, id, i801,801);
-        else if (classCode == 802)
+        else if (classKey == 802)
             AddBooking(name, id, i802,802);
-        else if (classCode == 803)
+        else if (classKey == 803)
             AddBooking(name, id, i803,803);
-        else if (classCode == 804)
+        else if (classKey == 804)
             AddBooking(name, id, i804,804);
 
     }
 
-    static void AddBooking(String name, String id, String[][] db, int classCode) {
+    static void AddBooking(String name, String id, String[][] db, int classKey) {
         int already = 0;
         for (int i = 0; i < 5; i++) {
             if (Objects.equals(db[i][0], id)) {
@@ -418,7 +418,7 @@ public class Index {
                     db[i][0] = id;
                     db[i][1] = name;
                     db[i][5] = "Reserved";
-                    removeSeat(classCode);
+                    removeSeat(classKey);
 
                     //Print the table
 
@@ -438,71 +438,71 @@ public class Index {
     }
 
 
-    static void removeSeat(int classCode){
+    static void removeSeat(int classKey){
 
-        if(classCode==101)
+        if(classKey==101)
             sr101--;
-        else if(classCode==102)
+        else if(classKey==102)
             sr102--;
-        else if(classCode==103)
+        else if(classKey==103)
             sr103--;
-        else if(classCode==104)
+        else if(classKey==104)
             sr104--;
-        else if(classCode==201)
+        else if(classKey==201)
             sr201--;
-        else if(classCode==202)
+        else if(classKey==202)
             sr202--;
-        else if(classCode==203)
+        else if(classKey==203)
             sr203--;
-        else if(classCode==204)
+        else if(classKey==204)
             sr204--;
-        else if(classCode==301)
+        else if(classKey==301)
             sr301--;
-        else if(classCode==302)
+        else if(classKey==302)
             sr302--;
-        else if(classCode==303)
+        else if(classKey==303)
             sr303--;
-        else if(classCode==304)
+        else if(classKey==304)
             sr304--;
-        else if(classCode==401)
+        else if(classKey==401)
             sr401--;
-        else if(classCode==402)
+        else if(classKey==402)
             sr402--;
-        else if(classCode==403)
+        else if(classKey==403)
             sr403--;
-        else if(classCode==404)
+        else if(classKey==404)
             sr404--;
-        else if(classCode==501)
+        else if(classKey==501)
             sr501--;
-        else if(classCode==502)
+        else if(classKey==502)
             sr502--;
-        else if(classCode==503)
+        else if(classKey==503)
             sr503--;
-        else if(classCode==504)
+        else if(classKey==504)
             sr504--;
-        else if(classCode==601)
+        else if(classKey==601)
             sr601--;
-        else if(classCode==602)
+        else if(classKey==602)
             sr602--;
-        else if(classCode==603)
+        else if(classKey==603)
             sr603--;
-        else if(classCode==604)
+        else if(classKey==604)
             sr604--;
-        else if(classCode==701)
+        else if(classKey==701)
             sr701--;
-        else if(classCode==702)
+        else if(classKey==702)
             sr702--;
-        else if(classCode==703)
+        else if(classKey==703)
             sr703--;
-        else if(classCode==704)
+        else if(classKey==704)
             sr704--;
-        else if(classCode==801)
+        else if(classKey==801)
             sr801--;
-        else if(classCode==802)
+        else if(classKey==802)
             sr802--;
-        else if(classCode==803)
+        else if(classKey==803)
             sr803--;
-        else if(classCode==804)
+        else if(classKey==804)
             sr804--;
     }
 
@@ -1054,7 +1054,7 @@ public class Index {
 
     }
 
-    static void CancelClass(String[][] db, String id,int classCode) {
+    static void CancelClass(String[][] db, String id,int classKey) {
 
         for (int i=0;i<5;i++) {
             //System.out.println("HEYYYY\t"+id+"\t"+db[i][0]);//
@@ -1063,7 +1063,7 @@ public class Index {
                 db[i][0] = "0";
                 db[i][1] = "None";
                 db[i][5] = "Available";
-                addSeat(classCode);
+                addSeat(classKey);
                 PrintTable(db); //
                 System.out.println("\nReservation Deleted :)\n");
                 break;
@@ -1075,72 +1075,72 @@ public class Index {
     }
 
 
-    static void addSeat(int classCode){
+    static void addSeat(int classKey){
 
 
-        if(classCode==101)
+        if(classKey==101)
             sr101++;
-        else if(classCode==102)
+        else if(classKey==102)
             sr102++;
-        else if(classCode==103)
+        else if(classKey==103)
             sr103++;
-        else if(classCode==104)
+        else if(classKey==104)
             sr104++;
-        else if(classCode==201)
+        else if(classKey==201)
             sr201++;
-        else if(classCode==202)
+        else if(classKey==202)
             sr202++;
-        else if(classCode==203)
+        else if(classKey==203)
             sr203++;
-        else if(classCode==204)
+        else if(classKey==204)
             sr204++;
-        else if(classCode==301)
+        else if(classKey==301)
             sr301++;
-        else if(classCode==302)
+        else if(classKey==302)
             sr302++;
-        else if(classCode==303)
+        else if(classKey==303)
             sr303++;
-        else if(classCode==304)
+        else if(classKey==304)
             sr304++;
-        else if(classCode==401)
+        else if(classKey==401)
             sr401++;
-        else if(classCode==402)
+        else if(classKey==402)
             sr402++;
-        else if(classCode==403)
+        else if(classKey==403)
             sr403++;
-        else if(classCode==404)
+        else if(classKey==404)
             sr404++;
-        else if(classCode==501)
+        else if(classKey==501)
             sr501++;
-        else if(classCode==502)
+        else if(classKey==502)
             sr502++;
-        else if(classCode==503)
+        else if(classKey==503)
             sr503++;
-        else if(classCode==504)
+        else if(classKey==504)
             sr504++;
-        else if(classCode==601)
+        else if(classKey==601)
             sr601++;
-        else if(classCode==602)
+        else if(classKey==602)
             sr602++;
-        else if(classCode==603)
+        else if(classKey==603)
             sr603++;
-        else if(classCode==604)
+        else if(classKey==604)
             sr604++;
-        else if(classCode==701)
+        else if(classKey==701)
             sr701++;
-        else if(classCode==702)
+        else if(classKey==702)
             sr702++;
-        else if(classCode==703)
+        else if(classKey==703)
             sr703++;
-        else if(classCode==704)
+        else if(classKey==704)
             sr704++;
-        else if(classCode==801)
+        else if(classKey==801)
             sr801++;
-        else if(classCode==802)
+        else if(classKey==802)
             sr802++;
-        else if(classCode==803)
+        else if(classKey==803)
             sr803++;
-        else if(classCode==804)
+        else if(classKey==804)
             sr804++;
     }
 

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Reservation {
 
-    static int classCode;
+    static int classKey;
     static void ReservationView() {
 
         Scanner sc=new Scanner(System.in);
@@ -16,13 +16,13 @@ public class Reservation {
             System.out.println("\nChoose Day");
             System.out.println("1. Saturday\n2. Sunday\n");
             dayChoice = sc.nextInt();
-            classCode=Schedule.ScheduleDay(dayChoice);
+            classKey=Schedule.ScheduleDay(dayChoice);
             CheckSeats();
         } else if (classChoice == 2) {
             System.out.println("\nChoose Class");
             System.out.println("1. Spin\n2. Bodysculpt\n3. Zumba\n4. Yoga\n");
             fitChoice = sc.nextInt();
-            classCode=Schedule.TimetableClass(fitChoice);
+            classKey=Schedule.TimetableClass(fitChoice);
             CheckSeats();
         } else
             System.out.println("Wrong Choice");
@@ -31,17 +31,17 @@ public class Reservation {
     static void CheckSeats(){
 
         int seatLeft;
-        seatLeft=Index.SeatAvailable(classCode);
+        seatLeft=Index.SeatAvailable(classKey);
         if (seatLeft<=0)
-            System.out.println("\nApologies, No Seats Available \n");
+            System.out.println("\nSorry, No Space Available \n");
 
         else
-            BookSeat();
+            ReserveSeat();
 
     }
 
 
-    static void BookSeat(){
+    static void ReserveSeat(){
 
         String name,id;
         Scanner sc=new Scanner(System.in);
@@ -51,7 +51,7 @@ public class Reservation {
         name=sc.nextLine();
         System.out.print("ID:\t");
         id=sc.nextLine();
-        Index.SelectBookingClass(name,id,classCode);
+        Index.SelectBookingClass(name,id,classKey);
 
 
 
