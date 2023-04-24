@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        int choice;
+        int choqice;
         do{
             System.out.println("\n\nWelcome to Fitness Weekend Club (FWC)");
             System.out.println("_________________________________\n");
@@ -12,10 +12,10 @@ public class Main {
             choice= sc.nextInt();
             switch (choice) {
                 case 1 -> Reservation.ReservationView();
-                case 2 -> Delete.DeleteView();
-                case 3 -> Attend.AttendView();//review
-                case 4 -> Review.MonthlyReviewView();
-                case 5 -> Review.ChampionReviewView();
+                case 2 -> Delete.DeleteShow();
+                case 3 -> Attend.AttendShow();//review
+                case 4 -> Review.MonthlyReviewShow();
+                case 5 -> Review.ChampionReviewShow();
                 case 6 -> {
                     System.out.println("\nTHANK YOU\n\n");
                     System.exit(0);

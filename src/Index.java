@@ -332,76 +332,76 @@ public class Index {
         return 0;
     }
 
-    static void SelectBookingClass(String name, String id, int classKey) {
+    static void SelectReservationClass(String name, String id, int classKey) {
 
         if (classKey == 101)
-            AddBooking(name, id, i101, 101);
+            AddReservation(name, id, i101, 101);
         else if (classKey == 102)
-            AddBooking(name, id, i102,102);
+            AddReservation(name, id, i102,102);
         else if (classKey == 103)
-            AddBooking(name, id, i103,103);
+            AddReservation(name, id, i103,103);
         else if (classKey == 104)
-            AddBooking(name, id, i104,104);
+            AddReservation(name, id, i104,104);
         else if (classKey == 201)
-            AddBooking(name, id, i201,201);
+            AddReservation(name, id, i201,201);
         else if (classKey == 202)
-            AddBooking(name, id, i202,202);
+            AddReservation(name, id, i202,202);
         else if (classKey == 203)
-            AddBooking(name, id, i203,203);
+            AddReservation(name, id, i203,203);
         else if (classKey == 204)
-            AddBooking(name, id, i204,204);
+            AddReservation(name, id, i204,204);
         else if (classKey == 301)
-            AddBooking(name, id, i301,301);
+            AddReservation(name, id, i301,301);
         else if (classKey == 302)
-            AddBooking(name, id, i302,302);
+            AddReservation(name, id, i302,302);
         else if (classKey == 303)
-            AddBooking(name, id, i303,303);
+            AddReservation(name, id, i303,303);
         else if (classKey == 304)
-            AddBooking(name, id, i304,304);
+            AddReservation(name, id, i304,304);
         else if (classKey == 401)
-            AddBooking(name, id, i401,401);
+            AddReservation(name, id, i401,401);
         else if (classKey == 402)
-            AddBooking(name, id, i402,402);
+            AddReservation(name, id, i402,402);
         else if (classKey == 403)
-            AddBooking(name, id, i403,403);
+            AddReservation(name, id, i403,403);
         else if (classKey == 404)
-            AddBooking(name, id, i404,404);
+            AddReservation(name, id, i404,404);
         else if (classKey == 501)
-            AddBooking(name, id, i501,501);
+            AddReservation(name, id, i501,501);
         else if (classKey == 502)
-            AddBooking(name, id, i502,502);
+            AddReservation(name, id, i502,502);
         else if (classKey == 503)
-            AddBooking(name, id, i503,503);
+            AddReservation(name, id, i503,503);
         else if (classKey == 504)
-            AddBooking(name, id, i504,504);
+            AddReservation(name, id, i504,504);
         else if (classKey == 601)
-            AddBooking(name, id, i601,601);
+            AddReservation(name, id, i601,601);
         else if (classKey == 602)
-            AddBooking(name, id, i602,602);
+            AddReservation(name, id, i602,602);
         else if (classKey == 603)
-            AddBooking(name, id, i603,603);
+            AddReservation(name, id, i603,603);
         else if (classKey == 604)
-            AddBooking(name, id, i604,604);
+            AddReservation(name, id, i604,604);
         else if (classKey == 701)
-            AddBooking(name, id, i701,701);
+            AddReservation(name, id, i701,701);
         else if (classKey == 702)
-            AddBooking(name, id, i702,702);
+            AddReservation(name, id, i702,702);
         else if (classKey == 703)
-            AddBooking(name, id, i703,703);
+            AddReservation(name, id, i703,703);
         else if (classKey == 704)
-            AddBooking(name, id, i704,704);
+            AddReservation(name, id, i704,704);
         else if (classKey == 801)
-            AddBooking(name, id, i801,801);
+            AddReservation(name, id, i801,801);
         else if (classKey == 802)
-            AddBooking(name, id, i802,802);
+            AddReservation(name, id, i802,802);
         else if (classKey == 803)
-            AddBooking(name, id, i803,803);
+            AddReservation(name, id, i803,803);
         else if (classKey == 804)
-            AddBooking(name, id, i804,804);
+            AddReservation(name, id, i804,804);
 
     }
 
-    static void AddBooking(String name, String id, String[][] db, int classKey) {
+    static void AddReservation(String name, String id, String[][] db, int classKey) {
         int already = 0;
         for (int i = 0; i < 5; i++) {
             if (Objects.equals(db[i][0], id)) {
@@ -1250,7 +1250,7 @@ public class Index {
     }
 
 
-    static void MonthlyReportSelect(int month){
+    static void MonthlyReviewSelect(int month){
 
         switch (month){
 
@@ -1293,7 +1293,7 @@ public class Index {
 
             default:
                 System.out.println("\nMonth Doesnt Exist :(\n");
-                Review.MonthlyReviewView();
+                Review.MonthlyReviewShow();
 
         }
 
@@ -1364,7 +1364,7 @@ public class Index {
 
             default:
                 System.out.println("\nMonth Doesnt Exist :(\n");
-                Review.ChampionReviewView();
+                Review.ChampionReviewShow();
         }
 
         //Highest Income

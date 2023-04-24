@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Review {
 
-    static void MonthlyReviewView(){
+    static void MonthlyReviewShow(){
 
         int month;
         Scanner sc=new Scanner(System.in);
@@ -11,11 +11,11 @@ public class Review {
         System.out.println("------------------------------\n");
         System.out.print("Review of Month :\t");
         month=sc.nextInt();
-        Index.MonthlyReportSelect(month);
+        Index.MonthlyReviewSelect(month);
 
     }
 
-    static void ChampionReviewView(){
+    static void ChampionReviewShow(){
 
         int month;
         Scanner sc=new Scanner(System.in);

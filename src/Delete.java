@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Delete {
 
 
-    static void DeleteView() {
+    static void DeleteShow() {
 
         Scanner sc=new Scanner(System.in);
         String id;
