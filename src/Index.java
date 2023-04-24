@@ -1050,7 +1050,7 @@ public class Index {
         else if (cancelClass == 804)
             CancelClass(i804, id,804);
         else
-            System.out.println("\nWrong Choice :(\n");
+            System.out.println("\nWrong Choice\n");
 
     }
 
@@ -1065,7 +1065,7 @@ public class Index {
                 db[i][5] = "Available";
                 addSeat(classKey);
                 PrintTable(db); //
-                System.out.println("\nReservation Deleted :)\n");
+                System.out.println("\nReservation Deleted \n");
                 break;
 
 
@@ -1212,7 +1212,7 @@ public class Index {
         else if (attendClass == 804)
             AttendClass(i804, id);
         else
-            System.out.println("\nWrong Choice :(\n");
+            System.out.println("\nWrong Choice\n");
 
     }
 
@@ -1223,7 +1223,7 @@ public class Index {
                 db[i][5] = "Present";
                 AttendedFeedback(db,i);
                 PrintTable(db); //
-                System.out.println("\nThank you for Attending the  Class :)\n");
+                System.out.println("\nThank you for Attending the  Class\n");
                 break;
             }
 
@@ -1236,7 +1236,7 @@ public class Index {
         int rating;
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("\nPlease Provide a Feedback of the Class:\n");
+        System.out.println("\nPlease Provide a Feedback of the Class\n");
         feedback=sc.nextLine();
         db[i][7]=feedback;
         System.out.println("\nRate Our Class:\n(1: Very Dissatisfied, 2: Dissatisfied, 3: Neutral, 4: Satisfied, 5: Very Satisfied)\n");
@@ -1292,7 +1292,7 @@ public class Index {
                 break;
 
             default:
-                System.out.println("\nMonth Doesnt Exist :(\n");
+                System.out.println("\nMonth Does not Exist\n");
                 Review.MonthlyReviewShow();
 
         }
@@ -1312,7 +1312,7 @@ public class Index {
             }
         }
         avgRating/=noCustomers;
-        System.out.println("\nNumber of Customers Present:\t"+noCustomers+"\nAverage Rating of the Class:\t"+avgRating+"\n");
+        System.out.println("\nNumber of Customers Available\t"+noCustomers+"\nAverage Rating of the Class\t"+avgRating+"\n");
 
     }
 
@@ -1363,7 +1363,7 @@ public class Index {
                 break;
 
             default:
-                System.out.println("\nMonth Doesnt Exist :(\n");
+                System.out.println("\nMonth Does not Exist\n");
                 Review.ChampionReviewShow();
         }
 
@@ -1372,7 +1372,7 @@ public class Index {
             if(items>highIncome)
                 highIncome=items;
         }
-        System.out.print("\nHighest Income Class:\t");
+        System.out.print("\nHighest Income Class\t");
         if(highIncome==spinRevenue)
             System.out.print("Spin\t\t");
         if(highIncome==bodysculptRevenue)
@@ -1402,7 +1402,7 @@ public class Index {
     static void PrintTable(String[][] db) {
 
         System.out.println();
-        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tPrice\t\tReview\t\tRating");
+        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tRate\t\tReview\t\tRating");
         System.out.println("------------------------------------------------------------------------------------------------------------");
         for (String[] items : db) {
             for (String item : items)

@@ -9,7 +9,7 @@ public class Main {
             System.out.println("_________________________________\n");
             System.out.println("Menu");
             System.out.println("1. Reserve Fitness Lesson\n2. Change/Delete a Reservation\n3. Attend a Lesson\n4. Monthly Report\n5. Monthly Champion Fitness Report\n6. Exit\n" );
-            choice= sc.nextInt();
+            int choice = sc.nextInt();
             switch (choice) {
                 case 1 -> Reservation.ReservationView();
                 case 2 -> Delete.DeleteShow();

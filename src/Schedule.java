@@ -123,7 +123,7 @@ public class Schedule {
     }
 
 
-    static int TimetableClass(int fitChoice) {
+    static int ScheduleClass(int fitChoice) {
 
         switch (fitChoice) {
             case 1 -> {

@@ -7,22 +7,22 @@ public class Reservation {
 
         Scanner sc=new Scanner(System.in);
         int classChoice,dayChoice,fitChoice;
-        System.out.println("\nBook a Group Fitness Lesson");
+        System.out.println("\nReserve Fitness Lesson");
         System.out.println("------------------------------\n");
-        System.out.println("Choose your Class by");
+        System.out.println("Reserve Your Class By");
         System.out.println("1. Day\n2. Fitness Type\n");
         classChoice = sc.nextInt();
         if (classChoice == 1) {
-            System.out.println("\nChoose Day");
+            System.out.println("\nChoose Your Day");
             System.out.println("1. Saturday\n2. Sunday\n");
             dayChoice = sc.nextInt();
             classKey=Schedule.ScheduleDay(dayChoice);
             CheckSeats();
         } else if (classChoice == 2) {
-            System.out.println("\nChoose Class");
-            System.out.println("1. Spin\n2. Bodysculpt\n3. Zumba\n4. Yoga\n");
+            System.out.println("\nChoose Your Class");
+            System.out.println("1. Spin\n2. Bodysculpt \n3. Zumba\n4. Yoga\n");
             fitChoice = sc.nextInt();
-            classKey=Schedule.TimetableClass(fitChoice);
+            classKey=Schedule.ScheduleClass(fitChoice);
             CheckSeats();
         } else
             System.out.println("Wrong Choice");
@@ -51,7 +51,7 @@ public class Reservation {
         name=sc.nextLine();
         System.out.print("ID:\t");
         id=sc.nextLine();
-        Index.SelectBookingClass(name,id,classKey);
+        Index.SelectReservationClass(name,id,classKey);
 
 
 
