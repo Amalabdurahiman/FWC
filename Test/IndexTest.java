@@ -21,7 +21,7 @@ class IndexTest {
     @Test
     public void testaddBooking() {
 
-        String[][] db = {
+        String[][] id = {
                 {"953", "Kevin", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"111", "Wilbert", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"430", "Terrel", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
@@ -29,11 +29,11 @@ class IndexTest {
                 {"0", "None", "Yoga", "Sunday", "10:00", "Available", "5","None","0"},
         };
 
-        Index.addSeat("Mohammed","555",db,13);
-        assertEquals("Mohammed",db[3][1]);
-        assertEquals("555",db[3][0]);
-        assertEquals("Kevin",db[0][1]);
-        assertEquals("Booked",db[3][5]);
+        Index.addSeat("Mohammed","555",id,103);
+        assertEquals("Mohammed",id[3][1]);
+        assertEquals("555",id[3][0]);
+        assertEquals("Kevin",id[0][1]);
+        assertEquals("Booked",id[3][5]);
     }
 
     @Test
@@ -83,7 +83,7 @@ class IndexTest {
     @Test
     public void testcancelClass() {
 
-        String[][] db = {
+        String[][] id = {
                 {"953", "Ryon", "Yoga", "Sunday", "10:00AM", "Booked", "5","None","0"},
                 {"111", "Wilbert", "Yoga", "Sunday", "10:00AM", "Booked", "5","None","0"},
                 {"430", "Kylee", "Yoga", "Sunday", "10:00AM", "Booked", "5","None","0"},
@@ -91,10 +91,10 @@ class IndexTest {
                 {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5","None","0"},
         };
 
-        Index.CancelClass(db,"111",11);
-        assertEquals("None",db[1][1]);
-        assertEquals("0",db[1][0]);
-        assertEquals("Available",db[1][5]);
+        Index.CancelClass(id,"111",11);
+        assertEquals("None",id[1][1]);
+        assertEquals("0",id[1][0]);
+        assertEquals("Available",id[1][5]);
 
     }
 
@@ -117,7 +117,7 @@ class IndexTest {
     @Test
     public void testattendClass() {
 
-        String[][] db = {
+        String[][] id = {
                 {"953", "Kevin", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"111", "Kylee", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"430", "Vincent", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
@@ -127,8 +127,8 @@ class IndexTest {
 
         ByteArrayInputStream UserIN1 = new ByteArrayInputStream("good\n4".getBytes());
         System.setIn(UserIN1);
-        Index.AttendClass(db,"111");
-        assertEquals("Attended",db[1][5]);
+        Index.AttendClass(id,"111");
+        assertEquals("Attended",id[1][5]);
         System.setIn(System.in);
 
     }
@@ -136,7 +136,7 @@ class IndexTest {
     @Test
     public void testattendedFeedback() {
 
-        String[][] db = {
+        String[][] id = {
                 {"953", "Kevin", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"111", "Kylee", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
                 {"430", "Vincent", "Yoga", "Sunday", "10:00", "Booked", "5","None","0"},
@@ -146,9 +146,9 @@ class IndexTest {
 
         ByteArrayInputStream UserIN1 = new ByteArrayInputStream("good\n4".getBytes());
         System.setIn(UserIN1);
-        Index.AttendedFeedback(db,1);
-        assertEquals("good",db[1][7]);
-        assertEquals("4",db[1][8]);
+        Index.AttendedFeedback(id,1);
+        assertEquals("good",id[1][7]);
+        assertEquals("4",id[1][8]);
         System.setIn(System.in);
     }
 
