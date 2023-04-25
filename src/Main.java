@@ -3,7 +3,6 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        int choice;
         do{
             System.out.println("\n\nWelcome to Fitness Weekend Club (FWC)");
             System.out.println("_________________________________\n");
