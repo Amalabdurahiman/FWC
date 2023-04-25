@@ -424,7 +424,7 @@ public class Index {
 
                     PrintTable(db);//
                     //
-                    System.out.println("\nBooking Confirmed :)\n");
+                    System.out.println("\nReservation Confirmed\n");
                     break;
                 } else continue;
 
