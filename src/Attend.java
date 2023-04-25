@@ -22,11 +22,12 @@ public class Attend {
             Index.SelectBookedOption(idClassCode);
             System.out.print("\nPlease Select the Class You Attended:\t");
             optionAttend=sc.nextInt();
-            attendClass=idClassCode[optionAttend-1];
-            // System.out.println(cancelClass + "\tHello");//
-            Index.SelectAttendClass(attendClass,id);
-
-
+            if(optionAttend<=0||optionAttend>=33)
+                System.out.println("\nWrong Choice");
+            else {
+                attendClass = idClassCode[optionAttend - 1];
+                Index.SelectAttendClass(attendClass, id);
+            }
         }
 
     }

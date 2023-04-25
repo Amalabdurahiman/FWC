@@ -5,15 +5,13 @@ import java.io.ByteArrayInputStream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class IndexTest {
-    Index i = new Index();
-
     @Test
     public void testseatReservation() {
 
-        assertEquals(0, i.SeatAvailable(105));
-        assertEquals(i.sr101, i.SeatAvailable(101));
-        assertEquals(i.sr804, i.SeatAvailable(804));
-        assertEquals(i.sr302, i.SeatAvailable(302));
+        assertEquals(0, Index.SeatAvailable(104));
+        assertEquals(Index.sr101, Index.SeatAvailable(101));
+        assertEquals(Index.sr804, Index.SeatAvailable(804));
+        assertEquals(Index.sr302, Index.SeatAvailable(302));
 
     }
 
