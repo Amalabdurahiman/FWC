@@ -19,7 +19,7 @@ public class Attend {
         if(idClassCode[0]==0)
             System.out.println("\nNo classes Scheduled :(\n");
         else{
-            Index.SelectBookedOption(idClassCode);
+            Index.SelectReservedOption(idClassCode);
             System.out.print("\nPlease Select the Class You Attended:\t");
             optionAttend=sc.nextInt();
             if(optionAttend<=0||optionAttend>=33)

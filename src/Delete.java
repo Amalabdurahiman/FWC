@@ -19,11 +19,11 @@ public class Delete {
         if(idClassCode[0]==0)
             System.out.println("\nNo Reservation Found\n");
         else{
-            Index.SelectBookedOption(idClassCode);
+            Index.SelectReservedOption(idClassCode);
             System.out.print("\nSelect the Reservation to be Canceled\t");
             optionCancel=sc.nextInt();
             cancelClass=idClassCode[optionCancel-1];
-            Index.SelectCancelClass(cancelClass,id);
+            Index.SelectDeleteClass(cancelClass,id);
 
             System.out.println("Do you want to Reserve Another Class?");
             System.out.println("1.Yes\n2.No\n");

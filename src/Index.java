@@ -401,10 +401,10 @@ public class Index {
 
     }
 
-    static void AddReservation(String name, String id, String[][] db, int classKey) {
+    static void AddReservation(String name, String id, String[][] ind, int classKey) {
         int already = 0;
         for (int i = 0; i < 5; i++) {
-            if (Objects.equals(db[i][0], id)) {
+            if (Objects.equals(ind[i][0], id)) {
                 System.out.println("\nReserved \n");
                 already = 1;
                 break;
@@ -413,17 +413,13 @@ public class Index {
         }
         if (already == 0) {
             for (int i = 0; i < 5; i++) {
-                if (db[i][5] == "Available") {
+                if (ind[i][5] == "Available") {
 
-                    db[i][0] = id;
-                    db[i][1] = name;
-                    db[i][5] = "Reserved";
+                    ind[i][0] = id;
+                    ind[i][1] = name;
+                    ind[i][5] = "Reserved";
                     removeSeat(classKey);
 
-                    //Print the table
-
-                    PrintTable(db);//
-                    //
                     System.out.println("\nReservation Confirmed\n");
                     break;
                 } else continue;
@@ -514,7 +510,6 @@ public class Index {
         int[] idClassCode = new int[302];
         int found = 0, i;
 
-        //i101
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i101[i][0])&&(!Objects.equals(i101[i][5], "Present"))) {
                 idClassCode[found] = 101;
@@ -522,7 +517,7 @@ public class Index {
                 break;
             }
         }
-        //i102
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i102[i][0])&&(!Objects.equals(i102[i][5], "Present"))) {
                 idClassCode[found] = 102;
@@ -530,7 +525,7 @@ public class Index {
                 break;
             }
         }
-        //i103
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i103[i][0])&&(!Objects.equals(i103[i][5], "Present"))) {
                 idClassCode[found] = 103;
@@ -538,7 +533,7 @@ public class Index {
                 break;
             }
         }
-        //i104
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i104[i][0])&&(!Objects.equals(i104[i][5], "Present"))) {
                 idClassCode[found] = 104;
@@ -546,7 +541,7 @@ public class Index {
                 break;
             }
         }
-        //i201
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i201[i][0])&&(!Objects.equals(i201[i][5], "Present"))) {
                 idClassCode[found] = 201;
@@ -554,7 +549,7 @@ public class Index {
                 break;
             }
         }
-        //i202
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i202[i][0])&&(!Objects.equals(i202[i][5], "Present"))) {
                 idClassCode[found] = 202;
@@ -562,7 +557,7 @@ public class Index {
                 break;
             }
         }
-        //i203
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i203[i][0])&&(!Objects.equals(i203[i][5], "Present"))) {
                 idClassCode[found] = 203;
@@ -570,7 +565,6 @@ public class Index {
                 break;
             }
         }
-        //i204
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i204[i][0])&&(!Objects.equals(i204[i][5], "Present"))) {
                 idClassCode[found] = 204;
@@ -578,7 +572,7 @@ public class Index {
                 break;
             }
         }
-        //i301
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i301[i][0])&&(!Objects.equals(i301[i][5], "Present"))) {
                 idClassCode[found] = 301;
@@ -586,7 +580,7 @@ public class Index {
                 break;
             }
         }
-        //i302
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i302[i][0])&&(!Objects.equals(i302[i][5], "Present"))) {
                 idClassCode[found] = 302;
@@ -594,7 +588,7 @@ public class Index {
                 break;
             }
         }
-        //i303
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i303[i][0])&&(!Objects.equals(i303[i][5], "Present"))) {
                 idClassCode[found] = 303;
@@ -602,7 +596,7 @@ public class Index {
                 break;
             }
         }
-        //i304
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i304[i][0])&&(!Objects.equals(i304[i][5], "Present"))) {
                 idClassCode[found] = 304;
@@ -610,7 +604,7 @@ public class Index {
                 break;
             }
         }
-        //i401
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i401[i][0])&&(!Objects.equals(i401[i][5], "Present"))) {
                 idClassCode[found] = 401;
@@ -618,7 +612,7 @@ public class Index {
                 break;
             }
         }
-        //i402
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i402[i][0])&&(!Objects.equals(i402[i][5], "Present"))) {
                 idClassCode[found] = 402;
@@ -626,7 +620,7 @@ public class Index {
                 break;
             }
         }
-        //i403
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i403[i][0])&&(!Objects.equals(i403[i][5], "Present"))) {
                 idClassCode[found] = 403;
@@ -634,7 +628,6 @@ public class Index {
                 break;
             }
         }
-        //i404
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i404[i][0])&&(!Objects.equals(i404[i][5], "Present"))) {
                 idClassCode[found] = 404;
@@ -642,7 +635,6 @@ public class Index {
                 break;
             }
         }
-        //i501
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i501[i][0])&&(!Objects.equals(i501[i][5], "Present"))) {
                 idClassCode[found] = 501;
@@ -650,7 +642,7 @@ public class Index {
                 break;
             }
         }
-        //i502
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i502[i][0])&&(!Objects.equals(i502[i][5], "Present"))) {
                 idClassCode[found] = 502;
@@ -658,7 +650,7 @@ public class Index {
                 break;
             }
         }
-        //i503
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i503[i][0])&&(!Objects.equals(i503[i][5], "Present"))) {
                 idClassCode[found] = 503;
@@ -666,7 +658,7 @@ public class Index {
                 break;
             }
         }
-        //i504
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i504[i][0])&&(!Objects.equals(i504[i][5], "Present"))) {
                 idClassCode[found] = 504;
@@ -674,7 +666,7 @@ public class Index {
                 break;
             }
         }
-        //i601
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i601[i][0])&&(!Objects.equals(i601[i][5], "Present"))) {
                 idClassCode[found] = 601;
@@ -682,7 +674,7 @@ public class Index {
                 break;
             }
         }
-        //i602
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i602[i][0])&&(!Objects.equals(i602[i][5], "Present"))) {
                 idClassCode[found] = 602;
@@ -690,7 +682,7 @@ public class Index {
                 break;
             }
         }
-        //i603
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i603[i][0])&&(!Objects.equals(i603[i][5], "Present"))) {
                 idClassCode[found] = 603;
@@ -698,7 +690,7 @@ public class Index {
                 break;
             }
         }
-        //i604
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i604[i][0])&&(!Objects.equals(i604[i][5], "Present"))) {
                 idClassCode[found] = 604;
@@ -706,7 +698,7 @@ public class Index {
                 break;
             }
         }
-        //i701
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i701[i][0])&&(!Objects.equals(i701[i][5], "Present"))) {
                 idClassCode[found] = 701;
@@ -714,7 +706,7 @@ public class Index {
                 break;
             }
         }
-        //i702
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i702[i][0])&&(!Objects.equals(i702[i][5], "Present"))) {
                 idClassCode[found] = 702;
@@ -722,7 +714,7 @@ public class Index {
                 break;
             }
         }
-        //i703
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i703[i][0])&&(!Objects.equals(i703[i][5], "Present"))) {
                 idClassCode[found] = 703;
@@ -730,7 +722,7 @@ public class Index {
                 break;
             }
         }
-        //i704
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i704[i][0])&&(!Objects.equals(i704[i][5], "Present"))) {
                 idClassCode[found] = 704;
@@ -738,7 +730,7 @@ public class Index {
                 break;
             }
         }
-        //i801
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i801[i][0])&&(!Objects.equals(i801[i][5], "Present"))) {
                 idClassCode[found] = 801;
@@ -746,7 +738,7 @@ public class Index {
                 break;
             }
         }
-        //i802
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i802[i][0])&&(!Objects.equals(i802[i][5], "Present"))) {
                 idClassCode[found] = 802;
@@ -754,7 +746,7 @@ public class Index {
                 break;
             }
         }
-        //i803
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i803[i][0])&&(!Objects.equals(i803[i][5], "Present"))) {
                 idClassCode[found] = 803;
@@ -762,7 +754,7 @@ public class Index {
                 break;
             }
         }
-        //i804
+
         for (i = 0; i < 5; i++) {
             if (Objects.equals(id, i804[i][0])&&(!Objects.equals(i804[i][5], "Present"))) {
                 idClassCode[found] = 804;
@@ -775,7 +767,7 @@ public class Index {
     }
 
 
-    static void SelectBookedOption(int[] idClassCode) {
+    static void SelectReservedOption(int[] idClassCode) {
 
         int i = 0;
 
@@ -983,88 +975,87 @@ public class Index {
 
     }
 
-    static void SelectCancelClass(int cancelClass, String id) {
+    static void SelectDeleteClass(int cancelClass, String id) {
 
         if (cancelClass == 101)
-            CancelClass(i101, id,101);
+            DeleteClass(i101, id,101);
         else if (cancelClass == 102)
-            CancelClass(i102, id,102);
+            DeleteClass(i102, id,102);
         else if (cancelClass == 103)
-            CancelClass(i103, id,103);
+            DeleteClass(i103, id,103);
         else if (cancelClass == 104)
-            CancelClass(i104, id,104);
+            DeleteClass(i104, id,104);
         else if (cancelClass == 201)
-            CancelClass(i201, id,201);
+            DeleteClass(i201, id,201);
         else if (cancelClass == 202)
-            CancelClass(i202, id,202);
+            DeleteClass(i202, id,202);
         else if (cancelClass == 203)
-            CancelClass(i203, id,203);
+            DeleteClass(i203, id,203);
         else if (cancelClass == 204)
-            CancelClass(i204, id,204);
+            DeleteClass(i204, id,204);
         else if (cancelClass == 301)
-            CancelClass(i301, id,301);
+            DeleteClass(i301, id,301);
         else if (cancelClass == 302)
-            CancelClass(i302, id,302);
+            DeleteClass(i302, id,302);
         else if (cancelClass == 303)
-            CancelClass(i303, id,303);
+            DeleteClass(i303, id,303);
         else if (cancelClass == 304)
-            CancelClass(i304, id,304);
+            DeleteClass(i304, id,304);
         else if (cancelClass == 401)
-            CancelClass(i401, id,401);
+            DeleteClass(i401, id,401);
         else if (cancelClass == 402)
-            CancelClass(i402, id,402);
+            DeleteClass(i402, id,402);
         else if (cancelClass == 403)
-            CancelClass(i403, id,403);
+            DeleteClass(i403, id,403);
         else if (cancelClass == 404)
-            CancelClass(i404, id,404);
+            DeleteClass(i404, id,404);
         else if (cancelClass == 501)
-            CancelClass(i501, id,501);
+            DeleteClass(i501, id,501);
         else if (cancelClass == 502)
-            CancelClass(i502, id,502);
+            DeleteClass(i502, id,502);
         else if (cancelClass == 503)
-            CancelClass(i503, id,503);
+            DeleteClass(i503, id,503);
         else if (cancelClass == 504)
-            CancelClass(i504, id,504);
+            DeleteClass(i504, id,504);
         else if (cancelClass == 601)
-            CancelClass(i601, id,601);
+            DeleteClass(i601, id,601);
         else if (cancelClass == 602)
-            CancelClass(i602, id,602);
+            DeleteClass(i602, id,602);
         else if (cancelClass == 603)
-            CancelClass(i603, id,603);
+            DeleteClass(i603, id,603);
         else if (cancelClass == 604)
-            CancelClass(i604, id,604);
+            DeleteClass(i604, id,604);
         else if (cancelClass == 701)
-            CancelClass(i701, id,701);
+            DeleteClass(i701, id,701);
         else if (cancelClass == 702)
-            CancelClass(i702, id,702);
+            DeleteClass(i702, id,702);
         else if (cancelClass == 703)
-            CancelClass(i703, id,703);
+            DeleteClass(i703, id,703);
         else if (cancelClass == 704)
-            CancelClass(i704, id,704);
+            DeleteClass(i704, id,704);
         else if (cancelClass == 801)
-            CancelClass(i801, id,801);
+            DeleteClass(i801, id,801);
         else if (cancelClass == 802)
-            CancelClass(i802, id,802);
+            DeleteClass(i802, id,802);
         else if (cancelClass == 803)
-            CancelClass(i803, id,803);
+            DeleteClass(i803, id,803);
         else if (cancelClass == 804)
-            CancelClass(i804, id,804);
+            DeleteClass(i804, id,804);
         else
             System.out.println("\nWrong Choice\n");
 
     }
 
-    static void CancelClass(String[][] db, String id,int classKey) {
+    static void DeleteClass(String[][] ind, String id,int classKey) {
 
         for (int i=0;i<5;i++) {
-            //System.out.println("HEYYYY\t"+id+"\t"+db[i][0]);//
-            if (Objects.equals(db[i][0], id)) {
+            //System.out.println("HEYYYY\t"+id+"\t"+ind[i][0]);//
+            if (Objects.equals(ind[i][0], id)) {
 
-                db[i][0] = "0";
-                db[i][1] = "None";
-                db[i][5] = "Available";
-                addSeat(classKey);
-                PrintTable(db); //
+                ind[i][0] = "0";
+                ind[i][1] = "None";
+                ind[i][5] = "Available";
+                ReserveSeat(classKey);
                 System.out.println("\nReservation Deleted \n");
                 break;
 
@@ -1075,7 +1066,7 @@ public class Index {
     }
 
 
-    static void addSeat(int classKey){
+    static void ReserveSeat(int classKey){
 
 
         if(classKey==101)
@@ -1216,13 +1207,12 @@ public class Index {
 
     }
 
-    static void AttendClass(String[][] db, String id) {
+    static void AttendClass(String[][] ind, String id) {
 
         for (int i=0;i<5;i++) {
-            if (Objects.equals(db[i][0], id)) {
-                db[i][5] = "Present";
-                AttendedFeedback(db,i);
-                PrintTable(db); //
+            if (Objects.equals(ind[i][0], id)) {
+                ind[i][5] = "Present";
+                AttendedFeedback(ind,i);
                 System.out.println("\nThank you for Attending the  Class\n");
                 break;
             }
@@ -1230,7 +1220,7 @@ public class Index {
         }
     }
 
-    static void AttendedFeedback(String[][] db,int i){
+    static void AttendedFeedback(String[][] ind,int i){
 
         String feedback;
         int rating;
@@ -1238,14 +1228,14 @@ public class Index {
 
         System.out.println("\nPlease Provide a Feedback of the Class\n");
         feedback=sc.nextLine();
-        db[i][7]=feedback;
+        ind[i][7]=feedback;
         System.out.println("\nRate Our Class:\n(1: Very Dissatisfied, 2: Dissatisfied, 3: Neutral, 4: Satisfied, 5: Very Satisfied)\n");
         rating=sc.nextInt();
         while(rating<1||rating>5){
             System.out.print("\nEnter a Value Between 1 and 5 :\t");
             rating=sc.nextInt();
         }
-        db[i][8]=Integer.toString(rating);
+        ind[i][8]=Integer.toString(rating);
 
     }
 
@@ -1300,15 +1290,15 @@ public class Index {
 
     }
 
-    static void MonthlyReview(String[][] db){
+    static void MonthlyReview(String[][] ind){
 
         int noCustomers=0;
         float avgRating=0;
-        System.out.println(db[0][2]);
+        System.out.println(ind[0][2]);
         for(int i=0;i<5;i++){
-            if(db[i][5]=="Present"){
+            if(ind[i][5]=="Present"){
                 noCustomers++;
-                avgRating+=Float.parseFloat(db[i][8]);
+                avgRating+=Float.parseFloat(ind[i][8]);
             }
         }
         avgRating/=noCustomers;
@@ -1386,29 +1376,19 @@ public class Index {
 
     }
 
-    static int ChampionReview(String[][] db){
+    static int ChampionReview(String[][] ind){
 
         int noCustomers=0;
         for(int i=0;i<5;i++){
-            if(db[i][5]=="Present"){
+            if(ind[i][5]=="Present"){
                 noCustomers++;
             }
         }
-        return (noCustomers*Integer.parseInt(db[0][6]));
+        return (noCustomers*Integer.parseInt(ind[0][6]));
 
     }
 
 
-    static void PrintTable(String[][] db) {
 
-        System.out.println();
-        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tRate\t\tReview\t\tRating");
-        System.out.println("------------------------------------------------------------------------------------------------------------");
-        for (String[] items : db) {
-            for (String item : items)
-                System.out.print(item + "\t\t");
-            System.out.println();
-        }
-    }
 
 }

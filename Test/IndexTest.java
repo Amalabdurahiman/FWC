@@ -63,7 +63,7 @@ class IndexTest {
     public void testselectReservedOption() {
 
         int[] Arr = new int[32];
-        Index.SelectBookedOption(Arr);
+        Index.SelectReservedOption(Arr);
 
     }
 
@@ -79,7 +79,7 @@ class IndexTest {
                 {"0", "None", "Yoga", "Sunday", "10:00AM", "Available", "5", "None", "0"},
         };
 
-        Index.CancelClass(id, "111", 11);
+        Index.DeleteClass(id, "111", 11);
         assertEquals("None", id[1][1]);
         assertEquals("0", id[1][0]);
         assertEquals("Available", id[1][5]);
@@ -90,15 +90,15 @@ class IndexTest {
     public void testaddSeat() {
 
         int st1 = Index.sr103;
-        Index.addSeat(103);
+        Index.ReserveSeat(103);
         assertEquals(st1 + 1, Index.sr103);
 
         int st2 = Index.sr504;
-        Index.addSeat(504);
+        Index.ReserveSeat(504);
         assertEquals(st2 + 1, Index.sr504);
 
         int st3 = Index.sr703;
-        Index.addSeat(703);
+        Index.ReserveSeat(703);
         assertEquals(st3 + 1, Index.sr703);
 
     }
